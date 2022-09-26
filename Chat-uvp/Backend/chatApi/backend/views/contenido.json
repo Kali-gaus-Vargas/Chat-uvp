@@ -1,0 +1,115 @@
+{
+  "contenido":[
+    {
+      "tag": "saludo",
+      "patrones": ["Hola","Un saludo","Hi","Hello","Que ondaaaaaa"],
+      "respuestas": ["Hola que tal","Como te va?","Un gusto de verte","Que ondaaaaaaaaaa","wasaaaaaaaaaaaaaa"]
+    },
+    {
+      "tag": "despedida",
+      "patrones": ["Adios","Hasta la proxima","nos vemos","Sale cuidate"],
+      "respuestas": ["Cuidate","Nos vemos pronto", "Te estare esperando"]
+    },
+    {
+      "tag": "chiste",
+      "patrones": ["Cuenteame un chiste","Dime un chiste","Sabes algun chiste","Di algo gracioso"],
+      "respuestas": ["Sabias que el aguacate es un 50% agua y el otro cate","Que guarda darth vader en el refri? Helado oscuro", "Que le dice el 3 al 30? para ser como yo debes ser sin-cero"]
+    },
+    {
+      "tag": "matematicas",
+      "patrones": ["Cuenteame que es matematicas","que es matematicas?","Sabes algo sobre las matematicas?","Di algo sobre matematicas"],
+      "respuestas": ["La matemática o las matemáticas es una ciencia deductiva, la cual se encarga del estudio de las propiedades de los entes abstractos así como de las conexiones y relaciones que existen entre ellos.","Las matemáticas son una ciencia formal, que estudia la relación entre entes o elementos abstractos, como son los números, los signos y las figuras.", "Se define como la ciencia formal y exacta que, basada en los principios de la lógica, estudia las propiedades y las relaciones que se establecen entre los entes abstractos."]
+    },
+    {
+      "tag": "Teorema de Pitágoras",
+      "patrones": ["Cual es el teorema de pitagoras?","sabes algo del teorema de pitagoras?"],
+      "respuestas": ["El teorema de Pitágoras es la relación que existe entre los lados de un triángulo rectángulo. Este establece que el área de un cuadrado con el lado más largo del triángulo rectángulo es igual a la suma de las áreas de los cuadrados formados con los otros dos lados del triángulo."]
+    },
+    {
+      "tag": "Teorema de tales",
+      "patrones": ["Cuenteame cual es el teorema de tales","Dime el teorema de tales","Sabes algo del teorema de tales?","Cual es el teorema de tales?"],
+      "respuestas": ["EL teorema de Tales se considera el teorema fundamental de la semejanza  de triángulos y establece lo siguiente:Toda recta paralela a un lado de un triángulo, forma con los otros dos lados o con sus prolongaciones otro triángulo que es semejante al triángulo dado."]
+    },
+    {
+      "tag": "Triángulo isósceles",
+      "patrones": ["Cuenteame cual es el triangulo isoseles?","Dime cual es el triangulo isoseles","Sabes algo del triangulo isoseles?","Cual es el triangulo isoseles?"],
+      "respuestas": ["En geometría, un triángulo isósceles es un triángulo que tiene, al menos, dos lados de igual longitud. Al ángulo formado por los lados de igual longitud se le denomina ángulo en el vértice y al lado opuesto a él, lado base."]
+    },
+    {
+      "tag": "Triángulo equilátero",
+      "patrones": ["Cuenteame cual es el triangulo equilatero?","Dime cual es el triangulo equilatero","Sabes algo del triangulo equilatero?","Cual es el triangulo equilatero?"],
+      "respuestas": ["En geometría, un triángulo equilátero, es un polígono regular, es decir, tiene sus tres lados iguales.1​ En la geometría euclídea tradicional, los triángulos equiláteros también son equiangulares, es decir, los tres ángulos internos son iguales."]
+    },
+    {
+      "tag": "Triángulo rectángulo",
+      "patrones": ["Cuenteame cual es el triangulo rectangulo?","Dime cual es el triangulo rectangulo","Sabes algo del triangulo rectangulo?","Cual es el triangulo rectangulo?"],
+      "respuestas": ["En geometría, se denomina triángulo rectángulo a cualquier triángulo que tiene un ángulo recto, es decir, un ángulo de 90 grados"]
+    },
+    {
+      "tag": "Triángulo rectángulo",
+      "patrones": ["Cuenteame cual es el triangulo rectangulo?","Dime cual es el triangulo rectangulo","Sabes algo del triangulo rectangulo?","Cual es el triangulo rectangulo?"],
+      "respuestas": ["En geometría, se denomina triángulo rectángulo a cualquier triángulo que tiene un ángulo recto, es decir, un ángulo de 90 grados"]
+    },
+    {
+      "tag": "Derivada de una función",
+      "patrones": ["Cuenteame cual es la derivada de una funcion?","Dime cual es la derivada de una funcion","Sabes algo de la derivada de una funcion?","Cual es la derivada de una funcion?"],
+      "respuestas": ["La derivada de una función matemática es la razón o velocidad de cambio de una función en un determinado punto. Es decir, qué tan rápido se está produciendo una variación."]
+    },
+    {
+      "tag": "Media aritmética (promedio)",
+      "patrones": ["Cuenteame cual es la formula de la media aritmetica?","Dime cual es la formula de la media aritmetica","Sabes algo de la formula de la media aritmetica?","Cual es la formula de la media aritmetica?"],
+      "respuestas": ["Suma de valores / Número de valores."]
+    },
+    {
+      "tag": "Probabilidad ",
+      "patrones": ["Cuenteame cual es la formula de la Probabilidad ?","Dime cual es la formula de la Probabilidad ","Sabes algo de la formula de la Probabilidad ?","Cual es la formula de la Probabilidad ?"],
+      "respuestas": ["Resultados objetivo / Resultados totales."]
+    },
+    {
+      "tag": "Fórmula cuadrática ",
+      "patrones": ["Cuenteame cual es la formula cuadratica ?","Dime cual es la formula cuadrática ","Sabes algo de la formula cuadrática ?","Cual es la formula cuadrática?"],
+      "respuestas": [" x = −b ± √b²-4ac/2a. "]
+    },
+    {
+      "tag": "Fórmula de distancia ",
+      "patrones": ["Cuenteame cual es la formula de la distancia ?","Dime cual es la formula de la distancia ","Sabes algo de la formula de la distancia ?","Cual es la formula de la distancia?"],
+      "respuestas": [" d=√(x₁ – x₂)² + (y₁ – y₂)²"]
+    },
+    {
+      "tag": "Fórmula de la pendiente ",
+      "patrones": ["Cuenteame cual es la formula de la pendiente ?","Dime cual es la formula de la pendiente ","Sabes algo de la formula de la pendiente ?","Cual es la formula de la pendiente?"],
+      "respuestas": ["Pendiente = y₂ – y₁ / x₂ – x₁"]
+    },
+    {
+      "tag": "Fórmula de la Pendiente de Intersección ",
+      "patrones": ["Cuenteame cual es la formula de la pendiente de iterseccion ?","Dime cual es la formula de la pendiente de iterseccion ","Sabes algo de la formula de la pendiente de iterseccion ?","Cual es la formula de la pendiente de iterseccion?"],
+      "respuestas": ["y=mx+b. …"]
+    },
+    {
+      "tag": "Fórmula del punto medio ",
+      "patrones": ["Cuenteame cual es la formula del punto medio ?","Dime cual es la formula del punto medio ","Sabes algo de la formula del punto medio?","Cual es la formula del punto medio?"],
+      "respuestas": ["(x₁+x₂) / 2, (y₁+y₂) / 2."]
+    },
+    {
+      "tag": "Fórmula de Perímetro de un rectángulo ",
+      "patrones": ["Cuenteame cual es la formula del perimetro de un rectangulo?","Dime cual es la formula del perimetro de un rectangulo","Sabes algo de la formula del perimetro de un rectangulo?","Cual es la formula del perimetro de un rectangulo?"],
+      "respuestas": ["2 (largo + ancho)"]
+    },
+    {
+      "tag": "Fórmula del Área del rectángulo",
+      "patrones": ["Cuenteame cual es la formula del area de un rectangulo?","Dime cual es la formula del area de un rectangulo","Sabes algo de la formula del area de un rectangulo?","Cual es la formula del area de un rectangulo?"],
+      "respuestas": [" largo × ancho."]
+    },
+    {
+      "tag": "Fórmula de Perímetro de un cuadrado",
+      "patrones": ["Cuenteame cual es la formula del perimetro de un cuadrado?","Dime cual es la formula del perimetro de un cuadrado","Sabes algo de la formula del perimetro de un cuadrado?","Cual es la formula del perimetro de un cuadrado?"],
+      "respuestas": ["4 × longitud del lado."]
+    },
+    {
+      "tag": "Fórmula del Área del cuadrado",
+      "patrones": ["Cuenteame cual es la formula del area de un cuadrado?","Dime cual es la formula del area de un cuadrado","Sabes algo de la formula del area de un cuadrado?","Cual es la formula del area de un cuadrado?"],
+      "respuestas": ["Longitud del lado × longitud del lado."]
+    }
+
+  ]
+}

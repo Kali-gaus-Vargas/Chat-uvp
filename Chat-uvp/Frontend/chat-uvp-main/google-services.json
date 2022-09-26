@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "188689865659",
+    "project_id": "chat-uvp",
+    "storage_bucket": "chat-uvp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188689865659:android:88cf0436a912598d13829e",
+        "android_client_info": {
+          "package_name": "com.expo.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188689865659-t5di2qq5n6f0263gnthudsl4ifci8rh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expo.chatbot",
+            "certificate_hash": "dda10d96a036e528f93b00ef2a50f96642eb4f5e"
+          }
+        },
+        {
+          "client_id": "188689865659-qv3isr4h2nsmaf1mj72okjhhglohdh2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmBMmH_0M-VXFalke-CRDwwf0b5Jx13KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188689865659-qv3isr4h2nsmaf1mj72okjhhglohdh2s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "188689865659-otl662pp0bed3l5evujts55kqr9ik1sf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.expo.chatbot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
