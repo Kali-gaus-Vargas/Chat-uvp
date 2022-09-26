@@ -2,18 +2,18 @@
   "contenido":[
     {
       "tag": "saludo",
-      "patrones": ["Hola","Un saludo","Hi","Hello","Que ondaaaaaa"],
-      "respuestas": ["Hola que tal","Como te va?","Un gusto de verte","Que ondaaaaaaaaaa","wasaaaaaaaaaaaaaa"]
+      "patrones": ["Hola","Un saludo","Hi","Hello","Que ondaaaaaa","Buenas"],
+      "respuestas": ["Hola que tal","Como te va?","Un gusto de verte","Hola","Hola como estas?"]
+    },
+     {
+      "tag": "conversacion",
+      "patrones": ["Bien","Bien y tu?","bien gracias"],
+      "respuestas": ["Me alegro","Me da gusto?","Un gusto que estes bien","Me pone contento","me alegro igual bien gracias"]
     },
     {
       "tag": "despedida",
       "patrones": ["Adios","Hasta la proxima","nos vemos","Sale cuidate"],
       "respuestas": ["Cuidate","Nos vemos pronto", "Te estare esperando"]
-    },
-    {
-      "tag": "chiste",
-      "patrones": ["Cuenteame un chiste","Dime un chiste","Sabes algun chiste","Di algo gracioso"],
-      "respuestas": ["Sabias que el aguacate es un 50% agua y el otro cate","Que guarda darth vader en el refri? Helado oscuro", "Que le dice el 3 al 30? para ser como yo debes ser sin-cero"]
     },
     {
       "tag": "matematicas",
@@ -109,7 +109,1897 @@
       "tag": "Fórmula del Área del cuadrado",
       "patrones": ["Cuenteame cual es la formula del area de un cuadrado?","Dime cual es la formula del area de un cuadrado","Sabes algo de la formula del area de un cuadrado?","Cual es la formula del area de un cuadrado?"],
       "respuestas": ["Longitud del lado × longitud del lado."]
-    }
+    },
+    {
+      "tag": "Números Primos",
+      "patrones": ["Cuenteame cuales son los numeros primos?"],
+      "respuestas": ["Los números primos son todos aquellos números que solamente pueden ser divisibles por sí mismos o por 1, como por ejemplo el 5, el 7 o el 11. Podríamos decir que son el “pilar” a partir del cual se construyen los otros números."]
+    },
+    {
+      "tag": "Número e",
+      "patrones": ["Cuenteame cual es el numero e?"],
+      "respuestas": ["Aunque es menos conocido que el anterior, el número e es una de las constantes matemáticas y números irracionales de mayor importancia. Deriva de la palabra exponencial y su extensión también es infinita, aunque se redondea a 2,718."]
+    },
+    {
+      "tag": "El infinito",
+      "patrones": ["Cuenteame cual es el infinito?","Que es el infinito?"],
+      "respuestas": ["El infinito es una cantidad sin límite que se representa con ∞. Este símbolo deriva de una ecuación llamada 'lemniscata', que significa “cinta de lana”. Infinito no es un número real (es decir, que no es positivo, ni negativo ni tampoco 0)."]
+    },
+    {
+      "tag": "Los números imaginarios",
+      "patrones": ["Cuenteame cuales son los numeros imaginarios?","Cuales son los numeros imaginarios?"],
+      "respuestas": ["Un número imaginario se define como un número complejo cuya parte real es 0. A los matemáticos esto les sirve para solventar aquellas operaciones que los demás números complejos no pueden resolver. Por ejemplo, la raíz cuadrada de -1. No puede ser 1 (porque 1x1=1) ni -1 (porque -1x-1=1). Así que la raíz cuadrada de -1 solo puede ser… i."]
+    },
+    {
+      "tag": "Pi",
+      "patrones": ["Que es pi?","Cual es el numero pi?","Cual es el valor de pi?"],
+      "respuestas": [" 3.14159… Pi expresa la relación entre la longitud de una circunferencia y su diámetro. Este número fue profusamente estudiado por los pensadores griegos, obsesionados con la geometría, aunque no llegaron a formularlo con precisión. Tampoco Arquímedes dio con el número exacto, aunque estableció una aproximación. En su obra 'Sobre la medida del círculo' escribió que el valor de Pi es mayor que 223/71 y menor que 22/7."]
+    },
+    {
+      "tag": "El número áureo",
+      "patrones": ["Cuenteame cual es el numero aureo?","Cual es el numero de oro?"],
+      "respuestas": [" También llamado número de oro, es un número irracional cuyo valor aproximado es 1’618033,Se simboliza con la letra griega Fi (φ) y expresa la proporción entre dos fragmentos de una recta. "]
+    },
+    {
+      "tag": "3DNow",
+      "patrones": ["Que es 3dnow?","Que es 3DNow?"],
+      "respuestas": [" Especificaciones multimedia para los procesadores de AMD. "]
+    },
+    {
+      "tag": "Acceso Directo",
+      "patrones": ["Que es un Acceso Directo?","Que es Acceso Directo?"],
+      "respuestas": ["Icono especial que representa a una carpeta o un archivo y que abre o ejecuta ésta de una forma cómoda y rápida. "]
+    },
+    {
+      "tag": "Active Desktop",
+      "patrones": ["Que es Active Desktop?","A que se refiere Active Desktop?"],
+      "respuestas": [" Escritorio activo de Windows 98 que permite tener contenido activo en el Escritorio y poner como fondo o papel tapiz una página Web, un vídeo, un sonido, etc. "]
+    },
+    {
+      "tag": "Actualizar",
+      "patrones": ["Que es Actualizar?","A que se refiere con Actualizar "],
+      "respuestas": ["Volver a cargar o mostrar el contenido de una página Web o una ventana. "]
+    },
+    {
+      "tag": "ADC",
+      "patrones": ["Que es ADC?","A que se refiere ADC "],
+      "respuestas": ["Circuito para convertir la señal analógica en digital, es decir, para digitalizar."]
+    },
+    {
+      "tag": "ADSL ",
+      "patrones": ["Que es ADSL ?","A que se refiere con ADSL ? "],
+      "respuestas": ["(Asymmetric Digital Subscriber Line - Línea Digital Asimétrica de Abonado): Sistema asimétrico de transmisión de datos sobre líneas telefónicas convencionales."]
+    },
+    {
+      "tag": "AGP",
+      "patrones": ["Que es AGP?","A que se refiere con AGP "],
+      "respuestas": [" Puerto acelerador gráfico. Bus que mejora la reproducción de gráficos en el ordenador."]
+    },
+    {
+      "tag": "AIX",
+      "patrones": ["Que es AIX?","A que se refiere con AIX "],
+      "respuestas": ["Versión del sistema operativo UNIX diseñada por IBM para estaciones de trabajo y grandes sistemas."]
+    },
+    {
+      "tag": "Alfanumérico",
+      "patrones": ["Que es Alfanumérico?","A que se refiere Alfanumérico?"],
+      "respuestas": [" Cualquier combinación de números, letras y símbolos."]
+    },
+    {
+      "tag": "Algoritmo",
+      "patrones": ["Que es Algoritmo?","A que se refiere Algoritmo?"],
+      "respuestas": [" Conjunto de instrucciones concretas y detalladas mediante el cual se consigue una acción determinada."]
+    },
+    {
+      "tag": "AMD",
+      "patrones": ["Que es AMD?","A que se refiere AMD?"],
+      "respuestas": ["Empresa que fabrica los procesadores K6 o K6-2, competencia de Pentium y Pentium II."]
+    },
+    {
+      "tag": "Ancho de banda",
+      "patrones": ["Que es Ancho de banda?","A que se refiere Ancho de banda?"],
+      "respuestas": ["Máxima cantidad de información simultánea que se puede transferir por una línea telefónica."]
+    },
+    {
+      "tag": "API ",
+      "patrones": ["Que es API ?","A que se refiere API ?"],
+      "respuestas": ["(Aplication Program Interface - Interfaz de Aplicación del Programa): Conjunto de rutinas del sistema que se pueden usar en un programa para la gestión de entrada-salida de ficheros, etc."]
+    },
+    {
+      "tag": "Aplicación",
+      "patrones": ["Que es Aplicación?","A que se refiere  a una Aplicación?"],
+      "respuestas": ["Programa que realiza una serie de funciones y con el cual trabajamos en el ordenador."]
+    },
+    {
+      "tag": "Applets",
+      "patrones": ["Que es Applets?","A que se refiere Applets?"],
+      "respuestas": [" Programas desarrollados con Java para mejorar la presentación de las páginas Web que realizan animaciones, juegos e interacción con el usuario."]
+    },
+    {
+      "tag": "Archivo",
+      "patrones": ["Que es Archivo?","A que se refiere a un Archivo?"],
+      "respuestas": ["Documento generado con una aplicación que se almacena en una unidad."]
+    },
+    {
+      "tag": "ASCII ",
+      "patrones": ["Que es ASCII ?","A que se refiere ASCII ?"],
+      "respuestas": ["(American Standard Code of Information Interchange): Estándar reconocido que engloba un número de caracteres útiles."]
+    },
+    {
+      "tag": "Autoexec.bat",
+      "patrones": ["Que es Autoexec.bat?","A que se refiere Autoexec.bat?"],
+      "respuestas": [" Programa que carga automáticamente el sistema operativo al arrancar, el cual puede modificar el usuario para personalizar el ordenador al encenderlo."]
+    },
+    {
+      "tag": "Backbone",
+      "patrones": ["Que es Backbone?","A que se refiere a un Backbone?"],
+      "respuestas": ["La columna vertebral de la Red."]
+    },
+    {
+      "tag": "Backup",
+      "patrones": ["Que es Backup?","A que se refiere a un Backup?"],
+      "respuestas": ["Aplicación de copia de seguridad de ficheros, carpetas o unidades completas que permite dividir la información o ficheros en varios disquetes y que además la comprime."]
+    },
+    {
+      "tag": "Batch",
+      "patrones": ["Que es Batch?","A que se refiere a Batch?"],
+      "respuestas": ["Fichero de proceso por lotes, es un archivo que encadena comandos que son realizados por el PC cuando se le invoca."]
+    },
+    {
+      "tag": "Baudio",
+      "patrones": ["Que es Baudio?","A que se refiere a un Baudio?"],
+      "respuestas": ["Unidad de medida. Número de cambios de estado de una señal por segundo."]
+    },
+    {
+      "tag": "Beta",
+      "patrones": ["Que es Beta?","A que se refiere a Beta?"],
+      "respuestas": ["Versión anterior a la Alfa y que puede ser la versión definitiva que se comercializará en un determinado tiempo."]
+    },
+    {
+      "tag": "Binario",
+      "patrones": ["Que es Binario?","A que se refiere a un Binario?"],
+      "respuestas": ["Código básico de la informática que reduce todo tipo de información a cadenas de ceros y unos, que rigen las instrucciones y respuestas del microprocesador."]
+    },
+    {
+      "tag": "BIOS",
+      "patrones": ["Que es BIOS?","A que se refiere a BIOS?"],
+      "respuestas": ["Información básica grabada en un chip imborrable que hace que un ordenador pueda funcionar y arrancar./font>"]
+    },
+    {
+      "tag": "Bit ",
+      "patrones": ["Que es Bit ?","A que se refiere a un Bit ?"],
+      "respuestas": ["(binary digit): Unidad básica de información representada por ceros y unos que se van sucediendo para conformar los distintos significados."]
+    },
+    {
+      "tag": "Bookmark",
+      "patrones": ["Que es Bookmark?","A que se refiere a un Bookmark?"],
+      "respuestas": ["Marca, anotación de una dirección Web oURL que queda archivada para su posterior uso."]
+    },
+    {
+      "tag": "Browser",
+      "patrones": ["Que es Browser?","A que se refiere a un Browser?"],
+      "respuestas": ["Navegador para poder visualizar las páginas Web en Internet."]
+    },
+    {
+      "tag": "Buffer",
+      "patrones": ["Que es Buffer?","A que se refiere a un Buffer?"],
+      "respuestas": [" Memoria intermedia que se utiliza en distintos periféricos."]
+    },
+    {
+      "tag": "Bump mapping",
+      "patrones": ["Que es Bump mapping?","A que se refiere a un Bump mapping?"],
+      "respuestas": ["Técnica por la cual se consigue dotar a las texturas de un relieve simulado."]
+    },
+    {
+      "tag": "Bus",
+      "patrones": ["Que es Bus?","A que se refiere a un Bus?"],
+      "respuestas": ["Especie de carretera por donde circulan los datos dentro del ordenador comunicando a los diferentes componentes de la placa base, que dependiendo de su tamaño harán que un ordenador tenga mayores o menores prestaciones, así como una mayor o menor capacidad de transferencia del ordenador."]
+    },
+    {
+      "tag": "Byte",
+      "patrones": ["Que es Byte?","A que se refiere a un Byte?"],
+      "respuestas": ["Medida básica de capacidad en informática. Comprende 8 bits o interruptores, cada uno de los cuales puede conmutar en dos posiciones ON y OFF."]
+    },
+    {
+      "tag": "Creadores",
+      "patrones": ["Quien es tu creador?","Quien es tu dueño?","Quien te creo?","Quien te programo?","Quien te desarrollo?","Quien es tu dueño?"],
+      "respuestas": ["Hola mis desarrolladores son: Adrian Vargas Barrios-Jose Luis Velazquez Ancona y Thomas Alexis Trujillo Gonzalez","Mis guapos desarrolladores son: Adrian Vargas Barrios-Jose Luis Velazquez Ancona y Thomas Alexis Trujillo Gonzalez","Mis creadores son: Adrian Vargas Barrios-Jose Luis Velazquez Ancona y Thomas Alexis Trujillo Gonzalez"]
+    },
+    {
+      "tag": "Caché",
+      "patrones": ["Que es Caché?","A que se refiere Caché?"],
+      "respuestas": ["Carpeta o memoria intermedia que almacena temporalmente los archivos del equipo."]
+    },
+    {
+      "tag": "CAD ",
+      "patrones": ["Que es CAD ?","A que se refiere CAD ?"],
+      "respuestas": ["(Computer Aided Design): Diseño asistido por ordenador-"]
+    },
+    {
+      "tag": "CAM",
+      "patrones": ["Que es CAM?","A que se refiere CAM?"],
+      "respuestas": ["Fabricación asistida por ordenador."]
+    },
+    {
+      "tag": "Canal",
+      "patrones": ["Que es Canal?","A que se refiere Canal?"],
+      "respuestas": [" Lugar Web que entrega el contenido de Internet en el ordenador. Los canales copian automáticamente el contenido desde Internet al sistema cuando nos suscribimos a un sitio."]
+    },
+    {
+      "tag": "Cancelmoose",
+      "patrones": ["Que es Cancelmoose?","A que se refiere Cancelmoose?"],
+      "respuestas": ["Persona que declara la guerra al spamming."]
+    },
+    {
+      "tag": "Carpeta",
+      "patrones": ["Que es Carpeta?","A que se refiere Carpeta?"],
+      "respuestas": ["Contenedor que sirve para almacenar archivos u otras carpetas."]
+    },
+    {
+      "tag": "Caudal",
+      "patrones": ["Que es Caudal?","A que se refiere Caudal?"],
+      "respuestas": [" Cantidad de ocupación de un ancho de banda."]
+    },
+    {
+      "tag": "CD-ROM",
+      "patrones": ["Que es CD-ROM?","A que se refiere CD-ROM?"],
+      "respuestas": [" Disco compacto de sólo lectura, soporte de almacenamiento de datos de gran capacidad"]
+    },
+    {
+      "tag": "CD ",
+      "patrones": ["Que es CD ?","A que se refiere CD ?"],
+      "respuestas": ["(Compact Disc): Disco compacto óptico, de 12 cms. de diámetro, que se utiliza para almacenamiento binario."]
+    },
+    {
+      "tag": "Celeron",
+      "patrones": ["Que es Celeron?","A que se refiere Celeron?"],
+      "respuestas": [" Versión de Pentium II de gama baja sin memoria caché externa."]
+    },
+    {
+      "tag": "Chat",
+      "patrones": ["Que es Chat?","A que se refiere Chat?"],
+      "respuestas": ["Servicio de Internet basado en la comunicación en tiempo real y mediante teclado entre personas."]
+    },
+    {
+      "tag": "Chip",
+      "patrones": ["Que es Chip?","A que se refiere Chip?"],
+      "respuestas": [" Circuito integrado y encapsulado."]
+    },
+    {
+      "tag": "Chipset",
+      "patrones": ["Que es Chipset?","A que se refiere Chipset?"],
+      "respuestas": ["Conjunto de chips que complementan el rendimiento del procesador principal."]
+    },
+    {
+      "tag": "Chroma-key",
+      "patrones": ["Que es Chroma-key?","A que se refiere Chroma-key?"],
+      "respuestas": [" Método de composición de vídeo que consiste en filmar actores sobre un fondo de cierto color y luego sustituir ese color por otra imagen."]
+    },
+    {
+      "tag": "Cibernauta",
+      "patrones": ["Que es Cibernauta?","A que se refiere Cibernauta?"],
+      "respuestas": [" Internauta o navegante virtual que accede a cualquier tipo de información disponible en la World Wide Web."]
+    },
+    {
+      "tag": "CISC ",
+      "patrones": ["Que es CISC ?","A que se refiere CISC ?"],
+      "respuestas": ["(Complex Instruction Set Computer): Procesador u ordenador cuyo juego de instrucciones es complejo o amplio."]
+    },
+    {
+      "tag": "Cliente",
+      "patrones": ["Que es Cliente?","A que se refiere Cliente?"],
+      "respuestas": ["Equipo que se conecta a otro equipo llamado servidor."]
+    },
+    {
+      "tag": "Comando",
+      "patrones": ["Que es Comando?","A que se refiere Comando?"],
+      "respuestas": ["Orden que se da al ordenador para ejecutar una función concreta o un programa."]
+    },
+    {
+      "tag": "Compresor",
+      "patrones": ["Que es Compresor?","A que se refiere Compresor?"],
+      "respuestas": [" Programa que comprime ficheros, por muy grandes que éstos sean, genera un solo archivo con ellos, además de dividir la nformación y permitir guardarla en varios disketes."]
+    },
+    {
+      "tag": "Controlador ",
+      "patrones": ["Que es Controlador ?","A que se refiere Driver?","Que es Driver?"],
+      "respuestas": ["Pequeño programa que sirve para reconocer y controlar un dispositivo de hardware específico."]
+    },
+    {
+      "tag": "Cookies",
+      "patrones": ["Que es Cookies?","A que se refiere Cookies?"],
+      "respuestas": ["Mecanismos que permiten a los gestores de cada página web grabar las entradas y salidas de los usuarios que acceden a su servidor. Es como si dejáramos nuestra tarjeta de visita."]
+    },
+    {
+      "tag": "Cortafuegos ",
+      "patrones": ["Que es Cortafuegos ?","A que se refiere Cortafuegos ?"],
+      "respuestas": ["  (firewall): Programa que protege a una red de otra red."]
+    },
+    {
+      "tag": "CPU ",
+      "patrones": ["Que es CPU ?","A que se refiere CPU ?"],
+      "respuestas": ["(Unidad Central de Proceso): Carcasa donde van montados los principales componentes del ordenador. Puede ser de sobremesa, minitorre, semitorre y torre."]
+    },
+    {
+      "tag": "Crack",
+      "patrones": ["Que es Crack?","A que se refiere Crack?"],
+      "respuestas": [" Modifica o salta la protección de la copia de una aplicación."]
+    },
+    {
+      "tag": "Cursor",
+      "patrones": ["Que es Cursor?","A que se refiere Cursor?"],
+      "respuestas": ["Señalizador que se controla mediante el ratón o teclado y mediante el cual nos movemos por Windows y las aplicaciones."]
+    },
+    {
+      "tag": "Cyrix",
+      "patrones": ["Que es Cyrix?","A que se refiere Cyrix?"],
+      "respuestas": [" Fabricante de procesadores con chips M-II."]
+    },
+    {
+      "tag": "DAC",
+      "patrones": ["Que es DAC?","A que se refiere DAC?"],
+      "respuestas": ["Circuito que decodifica las señales digitales y las convierte en analógicas, es decir, las reproduce."]
+    },
+    {
+      "tag": "Desfragmentación",
+      "patrones": ["Que es Desfragmentación?","A que se refiere Desfragmentación?"],
+      "respuestas": [" Proceso que consiste en escribir en clúster o pistas contiguas en una unidad la información existente en éstos, ya que se han podido fragmentar (estar desperdigadas en distintas áreas del soporte donde se guardó). La fragmentación ralentiza la velocidad del disco y hace sufrir a la aguja."]
+    },
+    {
+      "tag": "D-i",
+      "patrones": ["Que es D-i?","A que se refiere D-i?"],
+      "respuestas": ["Disco compacto interactivo, formato alternativo al CD-ROM para almacenar películas y aplicaciones multimedia."]
+    },
+    {
+      "tag": "Digital8",
+      "patrones": ["Que es Digital8?","A que se refiere Digital8?"],
+      "respuestas": [" Soporte creado por Sony en el cual se graba digitalmente en formato DV sobre cintas Hi8."]
+    },
+    {
+      "tag": "Digitalizar",
+      "patrones": ["Que es Digitalizar?","A que se refiere Digitalizar?"],
+      "respuestas": ["Convertir al lenguaje del ordenador (en bits) cualquier tipo de información gráfica, de audio o vídeo."]
+    },
+    {
+      "tag": "Dirección IP",
+      "patrones": ["Que es Dirección IP?","A que se refiere Dirección IP?"],
+      "respuestas": ["Cadena numérica que identifica a una máquina en una red IP."]
+    },
+    {
+      "tag": "Direct3D",
+      "patrones": ["Que es Direct3D?","A que se refiere Direct3D?"],
+      "respuestas": [" Funciones gráficas de Microsoft que dan soporte a las tarjetas aceleradoras."]
+    },
+    {
+      "tag": "Disco óptico",
+      "patrones": ["Que es Disco óptico?","A que se refiere Disco óptico?"],
+      "respuestas": ["Disco que usa la tecnología láser para el registro y lectura de la información."]
+    },
+    {
+      "tag": "DNS",
+      "patrones": ["Que es DNS?","A que se refiere DNS?"],
+      "respuestas": ["Sistema de Nombres por Dominio utilizado en Internet y basado en una estructura jerárquica y mediante el cual comunicamos con otro ordenador que puede encontrarse en otra parte del mundo."]
+    },
+    {
+      "tag": "Documento",
+      "patrones": ["Que es Documento?","A que se refiere Documento?"],
+      "respuestas": [" Archivo creado con una aplicación."]
+    },
+    {
+      "tag": "Dolby Digital (AC3)",
+      "patrones": ["Que es Dolby Digital (AC3)?","A que se refiere Dolby Digital (AC3)?"],
+      "respuestas": ["Nuevo formato de Dolby Sorround basado en cinco canales de audio, empleado en cine y en DVD."]
+    },
+    {
+      "tag": "Dominio",
+      "patrones": ["Que es Dominio?","A que se refiere Dominio?"],
+      "respuestas": ["Grupo de equipos conectados en red que comparten información y recursos."]
+    },
+    {
+      "tag": "Dominio público",
+      "patrones": ["Que es Dominio público?","A que se refiere Dominio público?"],
+      "respuestas": ["Aquellos programas de libre uso y que no suponen desembolso alguno para el usuario."]
+    },
+    {
+      "tag": "Dúplex",
+      "patrones": ["Que es Dúplex?","A que se refiere Dúplex?"],
+      "respuestas": [" Capacidad de un dispositivo para operar de dos maneras."]
+    },
+    {
+      "tag": "Easy PC",
+      "patrones": ["Que es Easy PC?","A que se refiere Easy PC?"],
+      "respuestas": [" Iniciativa liderada por Intel y Microsoft para desarrollar equipos fáciles de instalar, de mantener y usar."]
+    },
+    {
+      "tag": "Emulación",
+      "patrones": ["Que es Emulación?","A que se refiere Emulación?"],
+      "respuestas": ["Cualidad que permite a algunas máquinas funcionar como otras, de forma que se produce la compatibilidad entre ellas."]
+    },
+    {
+      "tag": "Encriptar",
+      "patrones": ["Que es Encriptar?","A que se refiere Encriptar?"],
+      "respuestas": ["Mezclar los datos para protegerlos como medida de seguridad, es decir, convertir texto normal a texto cifrado, que es ininteligible hasta que no se desencripta."]
+    },
+    {
+      "tag": "Escalabilidad",
+      "patrones": ["Que es Escalabilidad?","A que se refiere Escalabilidad?"],
+      "respuestas": [" Capacidad de ampliación de los ordenadores."]
+    },
+    {
+      "tag": "Enlace",
+      "patrones": ["Que es Enlace?","A que se refiere Enlace?"],
+      "respuestas": ["Conexión de un documento de Internet con otro que figura resaltado de manera especial, también llamado Hipervínculo o Hiperenlace."]
+    },
+    {
+      "tag": "Escáner",
+      "patrones": ["Que es Escáner?","A que se refiere Escáner?"],
+      "respuestas": [" Dispositivo para captar de manera óptica imágenes o textos."]
+    },
+    {
+      "tag": "Escritorio",
+      "patrones": ["Que es Escritorio?","A que se refiere Escritorio?"],
+      "respuestas": ["Pantalla inicial o espacio de trabajo que aparece al cargar Windows 98, sobre el cual vamos a realizar todo nuestro trabajo."]
+    },
+    {
+      "tag": "Extranet",
+      "patrones": ["Que es Extranet?","A que se refiere Extranet?"],
+      "respuestas": [" Red basada en Internet de una compañía  en la que comparte información y comunicación con agentes externos."]
+    },
+    {
+      "tag": "FAQs",
+      "patrones": ["Que es FAQs?","A que se refiere FAQs?"],
+      "respuestas": [" Respuestas a las pregundas más frecuentes."]
+    },
+    {
+      "tag": "FAT",
+      "patrones": ["Que es FAT?","A que se refiere FAT?"],
+      "respuestas": [" Método utilizado por los sistemas operativos para hacer un seguimiento de dónde están almacenados los archivos en un disco duro."]
+    },
+    {
+      "tag": "FIF ",
+      "patrones": ["Que es FIF ?","A que se refiere FIF ?"],
+      "respuestas": ["(Fractal Image Format): Formato de fichero gráfico que ahorra espacio y conserva la máxima calidad."]
+    },
+    {
+      "tag": "Fingering",
+      "patrones": ["Que es Fingering?","A que se refiere Fingering?"],
+      "respuestas": ["  Medio de reunir información sobre un usuario de la red a partir de su nombre, dirección de correo, etc."]
+    },
+    {
+      "tag": "FireWire",
+      "patrones": ["Que es FireWire?","A que se refiere FireWire?"],
+      "respuestas": ["Conocido como cable de fuego o IEEE 1394, es la vía de conexión de periféricos de alta velocidad para vídeo, almacenamiento o backup."]
+    },
+    {
+      "tag": "Frames ",
+      "patrones": ["Que es Frames ?","A que se refiere Frames ?"],
+      "respuestas": ["Areas rectangulares que subdividen las ventanas de algunas páginas Web, cada una de las cuales contiene un documento de hipertexto independiente de los demás."]
+    },
+    {
+      "tag": "Gateway ",
+      "patrones": ["Que es Gateway ?","A que se refiere Gateway ?"],
+      "respuestas": [" (Puerta de acceso): Dispositivo que permite conectar entre sí dos redes normalmente de distinto protocolo o bien un servidor a una red."]
+    },
+    {
+      "tag": "GIF ",
+      "patrones": ["Que es GIF ?","A que se refiere GIF ?"],
+      "respuestas": ["(Graphic Interchange Format): Formato de fichero gráfico muy utilizado en Internet, ya que ocupa muy poco espacio y, con un programa especial, podemos ensamblar varias imágenes y crear un fichero animado. En contraposición, tiene una capacidad de 256 colores máximo."]
+    },
+    {
+      "tag": "Gigabyte ",
+      "patrones": ["Que es Gigabyte ?","A que se refiere Gigabyte ?"],
+      "respuestas": ["Medida de 1.000 Mb (unos 1.000 millones de caracteres)."]
+    },
+    {
+      "tag": "G-Lite",
+      "patrones": ["Que es G-Lite?","A que se refiere G-Lite?"],
+      "respuestas": ["Versión recortada del protocolo de comunicación ADSL, recién aprobada por la Organización de Estándares de Comunicación, la ITU. Está especialmente pensado para aplicar esta tecnología al mercado doméstico, pues simplifica el proceso de instalación de una línea ADSL, al poder ser instalada por el propio usuario, sin necesidad de la presencia de un técnico, dadas las propiedades plug-and-play."]
+    },
+    {
+      "tag": "Gopher",
+      "patrones": ["Que es Gopher?","A que se refiere Gopher?"],
+      "respuestas": ["Servicio de información sobre los recursos de Internet organizado en miles de servidores interconectados entre sí. Cada servidor organiza una parcela de información, pero la creación de referencias cruzadas entre ellos permite que funcionen como una sola entidad. La información se presenta clasificada por tipos y accesible mediante menús jerárquicos."]
+    },
+    {
+      "tag": "Hacker",
+      "patrones": ["Que es Hacker?","A que se refiere Hacker?"],
+      "respuestas": ["Informáticos que utilizan sus grandes conocimientos para traspasar cualquier barrera informática."]
+    },
+    {
+      "tag": "Hardware",
+      "patrones": ["Que es Hardware?","A que se refiere Hardware?"],
+      "respuestas": [" Partes duras de un ordenador o componentes de éste."]
+    },
+    {
+      "tag": "Heurística",
+      "patrones": ["Que es Heurística?","A que se refiere Heurística?"],
+      "respuestas": [" Tipos de búsqueda inteligente que utilizan los antivirus para detectar los cambios de forma de los virus."]
+    },
+    {
+      "tag": "Hi8",
+      "patrones": ["Que es Hi8?","A que se refiere Hi8?"],
+      "respuestas": [" Estándar de grabación creado para videocámaras analógicas."]
+    },
+    {
+      "tag": "Hibernación",
+      "patrones": ["Que es Hibernación?","A que se refiere Hibernación?"],
+      "respuestas": [" Uno de los cinco estados de energía del nuevo PC por el cual el ordenador, aparentemente apagado, retorna al mismo punto donde se interrumpió."]
+    },
+    {
+      "tag": "Hicolor",
+      "patrones": ["Que es Hicolor?","A que se refiere Hicolor?"],
+      "respuestas": ["  Modo en el que se emplean 16 bits para mostrar cada color, lo que produce 65.536 colores distintos."]
+    },
+    {
+      "tag": "Hipertexto ",
+      "patrones": ["Que es Hipertexto ?","A que se refiere Hiperenlace?"],
+      "respuestas": [" Documento que contiene texto o imágenes que actúan como enlaces con otros textos o páginas cuando se pulsa sobre ellos."]
+    },
+    {
+      "tag": "Hipervínculo",
+      "patrones": ["Que es Hipervínculo?","A que se refiere Hipervínculo?"],
+      "respuestas": [": Marca que nos permite el salto a otro lugar del documento o a otra ubicación que se puede encontrar en cualquier parte del mundo."]
+    },
+    {
+      "tag": "Hoax ",
+      "patrones": ["Que es Hoax ?","A que se refiere Hoax ?"],
+      "respuestas": ["Mensajes que se propagan por Internet en forma de e-mail y que hacen alusión a determinados virus, los cuales recomiendan difundir las advertencias de éstos a múltiples usuarios para provocar una cadena de miles de mensajes."]
+    },
+    {
+      "tag": "Hoja de cálculo",
+      "patrones": ["Que es Hoja de cálculo?","A que se refiere Hoja de cálculo?"],
+      "respuestas": ["Aplicación en forma tabular, compuesta por columnas, filas y celdas que permiten realizar cálculos complejos, trabajar con fórmulas, funciones, analizar datos, dar formato y hacer complicados gráficos procedentes de los datos introducidos."]
+    },
+    {
+      "tag": "HTML ",
+      "patrones": ["Que es HTML ?","A que se refiere HTML ?"],
+      "respuestas": ["  (Lenguaje de Marcas de Hipertexto): Lenguaje utilizado para crear páginas Web."]
+    },
+    {
+      "tag": "HTTP",
+      "patrones": ["Que es HTTP?","A que se refiere HTTP?"],
+      "respuestas": [" Protocolo de Transferencia de Hipertexto o entorno gráfico de las páginas Web."]
+    },
+    {
+      "tag": "Hz",
+      "patrones": ["Que es Hz?","A que se refiere Hz?"],
+      "respuestas": ["Hertzio, unidad de medida de refresco o redibujado en pantalla."]
+    },
+    {
+      "tag": "Icono",
+      "patrones": ["Que es Icono?","A que se refiere Icono?"],
+      "respuestas": ["Imagen que representa un archivo, una unidad, una carpeta u otro elemento."]
+    },
+    {
+      "tag": "i.Link",
+      "patrones": ["Que es i.Link?","A que se refiere i.Link?"],
+      "respuestas": ["Copyright de Sony equivalente a la conexión FireWire o IEEE 1394."]
+    },
+    {
+      "tag": "Implementar",
+      "patrones": ["Que es Implementar?","A que se refiere Implementar?"],
+      "respuestas": ["Implantar o instalar un sistema o diseño informático o incorporar una tecnología novedosa."]
+    },
+    {
+      "tag": "Importar",
+      "patrones": ["Que es Importar?","A que se refiere Importar?"],
+      "respuestas": ["Transferir o enviar ficheros a otro programa distinto del que los generó."]
+    },
+    {
+      "tag": "Imprimir",
+      "patrones": ["Que es Imprimir?","A que se refiere Imprimir?"],
+      "respuestas": [" Acción de plasmar en papel la información obtenida en pantalla (texto, gráficos, imágenes, etc.)"]
+    },
+    {
+      "tag": "Interfaz",
+      "patrones": ["Que es Interfaz?","A que se refiere Interfaz?"],
+      "respuestas": [" Aspecto que presentan los programas tras su ejecución mediante el cual ejercemos la comunicación con éstos"]
+    },
+    {
+      "tag": "Internet",
+      "patrones": ["Que es Internet?","A que se refiere FInternetAQs?"],
+      "respuestas": [" Red de redes mundial. Telaraña o entramado mundial. También llamada World Wide Web (WWW), conjunto de redes que permiten la comunicación de millones de usuarios de todo el mundo.."]
+    },
+    {
+      "tag": "Intranet",
+      "patrones": ["Que es Intranet?","A que se refiere Intranet?"],
+      "respuestas": [" Red privada dentro de una organización que utiliza los protocolos propios de Internet."]
+    },
+    {
+      "tag": "Intro ",
+      "patrones": ["Que es Intro ?","A que se refiere Intro ?"],
+      "respuestas": ["  (Enter o Retorno de carro): Tecla que al pulsarla confirma o ejecuta una orden. En tratamientos de textos sirve para generar párrafos."]
+    },
+    {
+      "tag": "IP",
+      "patrones": ["Que es IP?","A que se refiere IP?"],
+      "respuestas": ["Dirección numérica y única de cada ordenador en Internet."]
+    },
+    {
+      "tag": "IPW",
+      "patrones": ["Que es IPW?","A que se refiere IPW?"],
+      "respuestas": ["Sistema de escritura incremental para la grabación de discos CD-R."]
+    },
+    {
+      "tag": "IRC ",
+      "patrones": ["Que es IRC ?","A que se refiere IRC ?"],
+      "respuestas": ["(Internet Relay Chat): Servicio de Internet basado en la comunicación en tiempo real y mediante teclado entre personas."]
+    },
+    {
+      "tag": "IRQ",
+      "patrones": ["Que es IRQ?","A que se refiere IRQ?"],
+      "respuestas": ["Cada una de las líneas de interrupción del ordenador, mensaje con el que el periférico avisa a éste que ha terminado la tarea que estaba realizando y le indica que está listo para recibir nuevas instrucciones."]
+    },
+    {
+      "tag": "Java",
+      "patrones": ["Que es Java?","A que se refiere Java?"],
+      "respuestas": [" Lenguaje de programación creado por Sun Microsystem para proporcionar más velocidad y facilidad de uso a Internet, es independiente de la plataforma utilizada y está disponible para cualquier navegador de la WWW que admita este lenguaje.."]
+    },
+    {
+      "tag": "Joystick",
+      "patrones": ["Que es Joystick?","A que se refiere Joystick?"],
+      "respuestas": ["Periférico en forma de palanca y con botones incorporados, diseñado especialmente para disfrutar de los videojuegos."]
+    },
+    {
+      "tag": "JPEG ",
+      "patrones": ["Que es JPEG ?","A que se refiere JPEG ?"],
+      "respuestas": ["  (Joined Graphics Expert Group): Es el formato de fichero gráfico más utilizado y difundido en Internet, ya que es un formato que alcanza un gran nivel de compresión (reduce las imágenes a la décima parte o más), pero a costa de una enorme pérdida de calidad al utilizar un método de compresión destructiva que estropea mucho los detalles, por lo que si modificamos el fichero dos o tres veces queda inservible."]
+    },
+    {
+      "tag": "Jumper",
+      "patrones": ["Que es Jumper?","A que se refiere Jumper?"],
+      "respuestas": ["Enlace o puente que se activa dentro de una placa base o tarjeta mediante una palanca diminuta."]
+    },
+    {
+      "tag": "Kernel",
+      "patrones": ["Que es Kernel?","A que se refiere Kernel?"],
+      "respuestas": ["Núcleo básico del sistema operativo, a partir del cual se establecen las distintas capas para su integración con el hardware, para la entrada y salida de datos, etc."]
+    },
+    {
+      "tag": "KHz",
+      "patrones": ["Que es KHz?","A que se refiere KHz?"],
+      "respuestas": ["Medida para determinar la cantidad de muestras por segundo que se tiene de un sonido y su calidad. Un KiloHertzio equivale a 1.000 Hertzios (o muestras)"]
+    },
+    {
+      "tag": "Kilobyte ",
+      "patrones": ["Que es Kilobyte ?","A que se refiere Kilobyte ?"],
+      "respuestas": [" Medida que equivale a 1.000 bytes, aproximadamente mil caracteres."]
+    },
+    {
+      "tag": "LAN ",
+      "patrones": ["Que es LAN ?","A que se refiere LAN ?"],
+      "respuestas": ["(Red de Area Local): Grupo de equipos conectados en la misma ubicación."]
+    },
+    {
+      "tag": "Láser",
+      "patrones": ["Que es Láser?","A que se refiere Láser?"],
+      "respuestas": [" Sistema basado en la emisión de un haz de luz muy preciso y potente, con diversas aplicaciones: lectores y grabadoras de CD-ROM, impresoras láser, sistemas de almacenamiento óptico, dispositivos de control, etc."]
+    },
+    {
+      "tag": "LBA",
+      "patrones": ["Que es LBA?","A que se refiere LBA?"],
+      "respuestas": [" Modo especial de direccionamiento del disco duro con el que se puede acceder a particiones de más de 528 Mbytes."]
+    },
+    {
+      "tag": "LCD ",
+      "patrones": ["Que es LCD ?","A que se refiere LCD ?"],
+      "respuestas": ["  (Liquid Cristal Display): Pantallas de cristal líquido que generalmente utilizan los ordenadores portátiles."]
+    },
+    {
+      "tag": "Macro",
+      "patrones": ["Que es Macro?","A que se refiere Macro?"],
+      "respuestas": [" Conjunto de instrucciones para automarizar tareas rutinarias."]
+    },
+    {
+      "tag": "Maestro",
+      "patrones": ["Que es Maestro?","A que se refiere Maestro?"],
+      "respuestas": [" Disco que funciona como principal en aquellos ordenadores que utilizan más de un disco duro (los restantes se les denomina esclavos)"]
+    },
+    {
+      "tag": "Magnetoscopio",
+      "patrones": ["Que es Magnetoscopio?","A que se refiere Magnetoscopio?"],
+      "respuestas": ["Reproductor y grabador de vídeo casero."]
+    },
+    {
+      "tag": "Mainframe",
+      "patrones": ["Que es Mainframe?","A que se refiere Mainframe?"],
+      "respuestas": ["Nombre con que se designan a los grandes ordenadores que funcionan en sistemas centralizados."]
+    },
+    {
+      "tag": "Mapa de bits",
+      "patrones": ["Que es Mapa de bits?","A que se refiere Mapa de bits?"],
+      "respuestas": ["  Tipo de archivo gráfico (compuesto por puntos) de imágenes para PC."]
+    },
+    {
+      "tag": "Marcador",
+      "patrones": ["Que es Marcador?","A que se refiere Marcador?"],
+      "respuestas": ["Ubicación o marca en una página, a la que podemos acceder rápidamente mediante un vínculo."]
+    },
+    {
+      "tag": "Marcos ",
+      "patrones": ["Que es Marcos ?","A que se refiere Marcos ?"],
+      "respuestas": [" Areas rectangulares que subdividen las ventanas de algunas páginas Web, cada una de las cuales contiene un documento de hipertexto independiente de los demás."]
+    },
+    {
+      "tag": "Máscara",
+      "patrones": ["Que es Máscara?","A que se refiere Máscara?"],
+      "respuestas": ["En los programas de dibujo, fijación de una zona de la imagen para trabajar sobre ella y para que sus modificaciones no alteren el resto del dibujo."]
+    },
+    {
+      "tag": "Matricial",
+      "patrones": ["Que es Matricial?","A que se refiere Matricial?"],
+      "respuestas": ["Tecnología de impresión que utiliza un sistema mecánico de impacto sobre una cinta con tinta, con un proceso similar al de las máquinas de escribir."]
+    },
+    {
+      "tag": "Maximizar",
+      "patrones": ["Que es Maximizar?","A que se refiere Maximizar?"],
+      "respuestas": ["Dícese de la acción llevada a cabo, mediante la pulsación sobre el botón del mismo nombre en una ventana, la cual hace que ésta llene toda la pantalla del monitor."]
+    },
+    {
+      "tag": "Mbone",
+      "patrones": ["Que es Mbone?","A que se refiere Mbone?"],
+      "respuestas": ["Tecnología que permite aprovechar mejor el audio y vídeo a través de Internet."]
+    },
+    {
+      "tag": "Megabyte ",
+      "patrones": ["Que es Megabyte ?","A que se refiere Megabyte ?"],
+      "respuestas": ["  Medida que equivale a 1.000 Kb, aproximadamente un millón de caracteres."]
+    },
+    {
+      "tag": "Megahertzio ",
+      "patrones": ["Que es Megahertzio ?","A que se refiere Megahertzio ?"],
+      "respuestas": ["Un millón de hertzios. Unidad de frecuencia con que se mide la velocidad de los microprocesadores.."]
+    },
+    {
+      "tag": "Memoria virtual",
+      "patrones": ["Que es Memoria virtual?","A que se refiere Memoria virtual?"],
+      "respuestas": ["  Archivo del disco duro (conocido como fichero de intercambio) que el sistema operativo utiliza como si de memoria RAM se tratase, aunque bastante más lenta."]
+    },
+    {
+      "tag": "Mendocino",
+      "patrones": ["Que es Mendocino?","A que se refiere Mendocino?"],
+      "respuestas": ["  Nombre clave de Celeron, pero con memoria caché externa, algo más rápida."]
+    },
+    {
+      "tag": "Menú",
+      "patrones": ["Que es Menú?","A que se refiere Menú?"],
+      "respuestas": ["Lista de comandos que aparece en la parte superior de las ventanas representadas por un nombre con una letra subrayada y que sirve para dar instrucciones a los programas o para comunicarnos con ellos por medio de éstos."]
+    },
+    {
+      "tag": "Microprocesador",
+      "patrones": ["Que es Microprocesador?","A que se refiere Microprocesador?"],
+      "respuestas": ["Unidad de proceso y corazón del ordenador. Podríamos decir que es el jefe del ordenador, el cual procesa y distribuye el trabajo a los demás componentes del ordenador"]
+    },
+    {
+      "tag": "MIDI",
+      "patrones": ["Que es MIDI?","A que se refiere MIDI?"],
+      "respuestas": ["Formato estándar para almacenar la música generada por instrumentos eléctricos."]
+    },
+    {
+      "tag": "MiniDV",
+      "patrones": ["Que es MiniDV?","A que se refiere MiniDV?"],
+      "respuestas": [" Soporte estándar para grabaciones DV en videocámaras digitales."]
+    },
+    {
+      "tag": "Minimizar",
+      "patrones": ["Que es Minimizar?","A que se refiere Minimizar?"],
+      "respuestas": ["Dícese de la acción llevada a cabo, mediante la pulsación sobre el botón del mismo nombre en una ventana, la cual hace que ésta se esconda en la barra de tareas y deje el espacio del escritorio listo para otro uso."]
+    },
+    {
+      "tag": "Mirroring",
+      "patrones": ["Que es Mirroring?","A que se refiere FAMirroringQs?"],
+      "respuestas": ["Duplicar los datos de un disco a otro, de las páginas de Internet o de un back-up."]
+    },
+    {
+      "tag": "MMX",
+      "patrones": ["Que es MMX?","A que se refiere MMX?"],
+      "respuestas": ["Especificaciones multimedia, compuestas de varias instrucciones, de algunos procesadores Pentium."]
+    },
+    {
+      "tag": "MO",
+      "patrones": ["Que es MO?","A que se refiere MO?"],
+      "respuestas": [" Disco magneto-óptico."]
+    },
+    {
+      "tag": "Módem ",
+      "patrones": ["Que es Módem ?","A que se refiere Módem ?"],
+      "respuestas": [" Dispositivo que transmite datos desde un equipo a otro a través de la línea telefónica."]
+    },
+    {
+      "tag": "MS-DOS",
+      "patrones": ["Que es MS-DOS?","A que se refiere MS-DOS?"],
+      "respuestas": [" (Microsoft Disk Operating System): Sistema operativo que nació con el PC, creado por Microsoft, y que contribuyó a la expansión de la informática en el ámbito doméstico."]
+    },
+    {
+      "tag": "MOV",
+      "patrones": ["Que es MOV?","A que se refiere MOV?"],
+      "respuestas": ["Formato de vídeo digital desarrollado por Apple, con más calidad que el formato AVI."]
+    },
+    {
+      "tag": "MP3",
+      "patrones": ["Que es MP3?","A que se refiere MP3?"],
+      "respuestas": ["Fichero de sonido comprimido y que sólo se puede escuchar en un PC y mediante un programa especial."]
+    },
+    {
+      "tag": "MPEG-1",
+      "patrones": ["Que es MPEG-1?","A que se refiere MPEG-1?"],
+      "respuestas": [" Sistema de compresión de vídeo digital mediante el cual es posible almacenar vídeos de hasta 352x288 en muy poco espacio de disco."]
+    },
+    {
+      "tag": "MPEG-2",
+      "patrones": ["Que es MPEG-2?","A que se refiere MPEG-2?"],
+      "respuestas": ["Sistema de descompresión de imágenes que utiliza la tecnología DVD, superior en tamaño y en calidad al MPEG-1.."]
+    },
+    {
+      "tag": "Multicasting",
+      "patrones": ["Que es Multicasting?","A que se refiere Multicasting?"],
+      "respuestas": ["Técnica de transmisión de datos a través de Internet, en la que se envían paquetes desde un punto a varios destinatarios simultáneamente."]
+    },
+    {
+      "tag": "Multimedia",
+      "patrones": ["Que es Multimedia?","A que se refiere Multimedia?"],
+      "respuestas": ["Cualquier combinación de texto, imágenes, sonido y vídeo."]
+    },
+    {
+      "tag": "Multiprocesador",
+      "patrones": ["Que es Multiprocesador?","A que se refiere Multiprocesador?"],
+      "respuestas": ["Ordenadores que contienen dos o más procesadores y que tratan una fuente de datos común."]
+    },
+    {
+      "tag": "Multitarea",
+      "patrones": ["Que es Multitarea?","A que se refiere Multitarea?"],
+      "respuestas": [" Dícese de aquellos sistemas operativos que pueden ejecutar varias tareas al mismo tiempo."]
+    },
+    {
+      "tag": "Navegador",
+      "patrones": ["Que es Navegador?","A que se refiere Navegador?"],
+      "respuestas": ["Programa utilizado para acceder a los documentos almacenados en Internet."]
+    },
+    {
+      "tag": "Navegar",
+      "patrones": ["Que es Navegar?","A que se refiere Navegar?"],
+      "respuestas": [" Recorrer el contenido de Internet."]
+    },
+    {
+      "tag": "Neo-luditas",
+      "patrones": ["Que es Neo-luditas?","A que se refiere Neo-luditas?"],
+      "respuestas": ["Quienes por razones morales o intelectuales se oponen a las nuevas tecnologías."]
+    },
+    {
+      "tag": "Newsgroups ",
+      "patrones": ["Que es Newsgroups ?","A que se refiere Newsgroups ?"],
+      "respuestas": [" (grupos de noticias): Servicio denominado simplemente noticias o news, son grupos de personas que tienen intereses comunes en un determinado tema y que se intercambian mensajes entre sí, opinan, discuten, debaten, exponen o, simplemente, hacen amigos."]
+    },
+    {
+      "tag": "NFR",
+      "patrones": ["Que es NFR?","A que se refiere NFR?"],
+      "respuestas": ["NFR"]
+    },
+    {
+      "tag": "NTSC",
+      "patrones": ["Que es NTSC?","A que se refiere NTSC?"],
+      "respuestas": ["  Formato de TV estándar en EE. UU. y Japón, con una resolución de 768x486 a 30 fps."]
+    },
+    {
+      "tag": "OCR ",
+      "patrones": ["Que es OCR ?","A que se refiere OCR ?"],
+      "respuestas": ["(Reconocimiento Óptico de Caracteres): Software que permite reconocer los caracteres y convertirlos a texto informático."]
+    },
+    {
+      "tag": "OEM",
+      "patrones": ["Que es OEM?","A que se refiere OEM?"],
+      "respuestas": [" Versiones para fabricantes de hardware."]
+    },
+    {
+      "tag": "Off-line",
+      "patrones": ["Que es Off-line?","A que se refiere Off-line?"],
+      "respuestas": ["Proceso para poder ver páginas Web sin estar conectado a Internet. Se cargan al disco duro y se puede tener acceso a ellas más tarde."]
+    },
+    {
+      "tag": "Ofimática",
+      "patrones": ["Que es Ofimática?","A que se refiere Ofimática?"],
+      "respuestas": [" Dícese de la informática y la tecnología aplicada a la oficina."]
+    },
+    {
+      "tag": "On-line",
+      "patrones": ["Que es On-line?","A que se refiere On-line?"],
+      "respuestas": ["  Conexiones a la red donde las respuestas del sistema se generan de forma casi inmediata."]
+    },
+    {
+      "tag": "OnNow",
+      "patrones": ["Que es OnNow?","A que se refiere OnNow?"],
+      "respuestas": ["Sistema de administración de energía del ordenador que ayuda a ahorrar ésta, a prevenir el desgaste de la unidad y reducir el ruido."]
+    },
+    {
+      "tag": "OpenGL",
+      "patrones": ["Que es OpenGL?","A que se refiere OpenGL?"],
+      "respuestas": [" Librería de funciones gráficas avanzadas desarrollada por Silicon Graphics."]
+    },
+    {
+      "tag": "Overcloking",
+      "patrones": ["Que es Overcloking?","A que se refiere Overcloking?"],
+      "respuestas": [" Operación consistente en forzar al procesador a trabajar a una velocidad superior a la original."]
+    },
+    {
+      "tag": "PAL",
+      "patrones": ["Que es PAL?","A que se refiere PAL?"],
+      "respuestas": [" Formato de TV estándar en Europa, con una resolución de 768x576 a 25 fps."]
+    },
+    {
+      "tag": "Partición",
+      "patrones": ["Que es Partición?","A que se refiere Partición?"],
+      "respuestas": ["Subdivisión que se realiza en el disco duro con el fin de obtener un mayor aprovechamiento de éste."]
+    },
+    {
+      "tag": "Password",
+      "patrones": ["Que es Password?","A que se refiere Password?"],
+      "respuestas": ["  Clave secreta personal."]
+    },
+    {
+      "tag": "PCI",
+      "patrones": ["Que es PCI?","A que se refiere PCI?"],
+      "respuestas": ["Bus local de 32 bits cuyas ranuras conectan tarjetas que requieren transferencias rápidas."]
+    },
+    {
+      "tag": "Perfil",
+      "patrones": ["Que es Perfil?","A que se refiere Perfil?"],
+      "respuestas": ["Conjunto de parámetros de Windows 98 para un determinado usuario."]
+    },
+    {
+      "tag": "Photo-CD",
+      "patrones": ["Que es Photo-CD?","A que se refiere Photo-CD?"],
+      "respuestas": [" Disco compacto en el que se encuentran grabadas fotografías en formato digital."]
+    },
+    {
+      "tag": "Phreaker",
+      "patrones": ["Que es Phreaker?","A que se refiere Phreaker?"],
+      "respuestas": ["El que utiliza la línea telefónica de forma ilegal"]
+    },
+    {
+      "tag": "Pirata",
+      "patrones": ["Que es Pirata?","A que se refiere Pirata?"],
+      "respuestas": ["El que copia software ilegalmente y lo comercializa sin ningún tipo de licencia."]
+    },
+    {
+      "tag": "Pixel",
+      "patrones": ["Que es Pixel?","A que se refiere Pixel?"],
+      "respuestas": [" Unidad de medida correspondiente al mínimo punto que se puede representar en pantalla."]
+    },
+    {
+      "tag": "Plug-ins",
+      "patrones": ["Que es Plug-ins?","A que se refiere Plug-ins?"],
+      "respuestas": ["Aplicaciones que permiten interpretar y visualizar distintos tipos de ficheros que contienen elementos multimedia y que funcionan sincronizadamente con el navegador."]
+    },
+    {
+      "tag": "PNG ",
+      "patrones": ["Que es PNG ?","A que se refiere PNG ?"],
+      "respuestas": ["(Portable Network Graphics): Especificación diseñada para una mejor carga y calidad de los gráficos en Internet, cuya característica principal es que no reduce el número de colores de una imagen, lo que evita pérdida de calidad."]
+    },
+    {
+      "tag": "Portales",
+      "patrones": ["Que es Portales?","A que se refiere Portales?"],
+      "respuestas": [" Páginas que se utilizan como punto de partida y que se estructuran por contenidos, índices y temas, además de ser potentes bases de datos o buscadores de información por Internet, es decir, localizadores de otras páginas de las cuales no conocemos su dirección, pero que las encontramos al teclear en éstos unas palabras clave."]
+    },
+    {
+      "tag": "Predeterminado",
+      "patrones": ["Que es Predeterminado?","A que se refiere Predeterminado?"],
+      "respuestas": ["Opción predefinida por defecto."]
+    },
+    {
+      "tag": "Programa",
+      "patrones": ["Que es Programa?","A que se refiere Programa?"],
+      "respuestas": [" Grupo de instrucciones que sirven para realizar determinadas tareas. También llamadas aplicaciones."]
+    },
+    {
+      "tag": "Protocolo",
+      "patrones": ["Que es Protocolo?","A que se refiere Protocolo?"],
+      "respuestas": [" Conjunto de normas que los equipos utilizan para comunicarse entre sí a través de una red y poder hablar el mismo idioma."]
+    },
+    {
+      "tag": "Proxy",
+      "patrones": ["Que es Proxy?","A que se refiere Proxy?"],
+      "respuestas": ["Servidor que realiza la conexión a Internet y que sirve de puerta de entrada a los ordenadores cliente."]
+    },
+    {
+      "tag": "Puntero",
+      "patrones": ["Que es Puntero?","A que se refiere Puntero?"],
+      "respuestas": ["Flecha que aparece por la pantalla y que se controla mediante el movimiento del ratón para poder realizar multitud de operaciones."]
+    },
+    {
+      "tag": "QuarkXPress",
+      "patrones": ["Que es QuarkXPress?","A que se refiere QuarkXPress?"],
+      "respuestas": ["El mejor programa de autoedición, diseño y maquetación existente en el mercado, con el que trabajan prácticamente el cien por cien de los diarios y revistas mundiales."]
+    },
+    {
+      "tag": "Quote",
+      "patrones": ["Que es Quote?","A que se refiere Quote?"],
+      "respuestas": ["Término que designa a los fragmentos de texto o anotaciones del correo electrónico que sirven de recordatorio al destinatario cuando se le responde un mensaje."]
+    },
+    {
+      "tag": "RAM ",
+      "patrones": ["Que es RAM ?","A que se refiere RAM ?"],
+      "respuestas": ["(Random Access Memory): Memoria de Acceso Aleatorio que mantiene vivos los datos hasta que se desconecta el ordenador."]
+    },
+    {
+      "tag": "RAMDAC",
+      "patrones": ["Que es RAMDAC?","A que se refiere RAMDAC?"],
+      "respuestas": [" Componente que convierte la información digital en impulsos analógicos que se envían al monitor."]
+    },
+    {
+      "tag": "Ratón ",
+      "patrones": ["Que es Ratón ?","A que se refiere Ratón ?"],
+      "respuestas": ["(mouse): Periférico de señalización, posicionamiento y movimiento mediante el cual nos movemos por los distintos programas informáticos."]
+    },
+    {
+      "tag": "RDSI",
+      "patrones": ["Que es RDSI?","A que se refiere RDSI?"],
+      "respuestas": [" Red Digital de Servicios Integrados. Permite tener dos canales a la vez y velocidades de transmisión de hasta 128K por segundo."]
+    },
+    {
+      "tag": "Red",
+      "patrones": ["Que es Red?","A que se refiere Red?"],
+      "respuestas": ["  Dos o más equipos conectados entre sí."]
+    },
+    {
+      "tag": "Red de Area Local ",
+      "patrones": ["Que es Red de Area Local ?","A que se refiere Red de Area Local ?"],
+      "respuestas": [" (LAN): Grupo de equipos conectados en un mismo lugar."]
+    },
+    {
+      "tag": "Remarcado",
+      "patrones": ["Que es Remarcado?","A que se refiere Remarcado?"],
+      "respuestas": [" Procesador forzado a trabajar a una frecuencia mayor que la que admite."]
+    },
+    {
+      "tag": "Render",
+      "patrones": ["Que es Render?","A que se refiere Render?"],
+      "respuestas": [" Representación de los gráficos 3D en pantalla."]
+    },
+    {
+      "tag": "Resetear",
+      "patrones": ["Que es Resetear?","A que se refiere Resetear?"],
+      "respuestas": ["Apagar el ordenador in extremis cuando el sistema se queda colgado, también se le llama Reinicializar el ordenador (descargar el sistema operativo para volverlo a recargar)."]
+    },
+    {
+      "tag": "Resolución",
+      "patrones": ["Que es Resolución?","A que se refiere Resolución?"],
+      "respuestas": ["Número máximo de puntos que se pueden visualizar simultáneamente en pantalla."]
+    },
+    {
+      "tag": "Restaurar",
+      "patrones": ["Que es Restaurar?","A que se refiere Restaurar?"],
+      "respuestas": ["Devolver una ventana a su tamaño anterior."]
+    },
+    {
+      "tag": "Restore",
+      "patrones": ["Que es Restore?","A que se refiere Restore?"],
+      "respuestas": ["Función complementaria del backup (copia de seguridad) que sirve para restaurar o recuperar los ficheros que previamente fueron guardados en copias de seguridad."]
+    },
+    {
+      "tag": "Retorno ",
+      "patrones": ["Que es Retorno ?","A que se refiere Retorno ?"],
+      "respuestas": ["Tecla fundamental del teclado, ya que sirve para realizar funciones básicas de un ordenador, como pueden ser la ejecución de comandos, puesta en marcha de programas, confirmaciones de opciones de menú, abrir párrafos en documentos, etc. (También llamado Enter o Intro)."]
+    },
+    {
+      "tag": "RISC ",
+      "patrones": ["Que es RISC ?","A que se refiere RISC ?"],
+      "respuestas": ["(Reduced Instruction Set Computer): Tipo de procesador que incorpora un juego de instrucciones reducido."]
+    },
+    {
+      "tag": "Robótica",
+      "patrones": ["Que es Robótica?","A que se refiere Robótica?"],
+      "respuestas": [" Ciencia que se dedica al diseño y creación de robots o máquinas que realizan actividades peligrosas, pesadas o repetitivas."]
+    },
+    {
+      "tag": "ROM ",
+      "patrones": ["Que es ROM ?","A que se refiere ROM ?"],
+      "respuestas": ["(Read Only Memory): Memoria de sólo lectura. Controla las rutinas fundamentales para el funcionamiento de un ordenador y que no pueden ser borradas por el usuario ni aunque se desconecte la máquina."]
+    },
+    {
+      "tag": "Routers",
+      "patrones": ["Que es Routers?","A que se refiere Routers?"],
+      "respuestas": ["Dispositivos de red cuya misión principal es encaminar los paquetes de información que reciben en la dirección adecuada para que alcancen su destino."]
+    },
+    {
+      "tag": "Ruta de acceso ",
+      "patrones": ["Que es Ruta de acceso ?","A que se refiere Ruta de acceso ?"],
+      "respuestas": [" (Path - Camino o Trayectoria): Forma para llegar hasta un lugar o una ubicación determinada, partiendo de una unidad específica, por carpetas y nombre de archivo."]
+    },
+    {
+      "tag": "Rutina",
+      "patrones": ["Que es Rutina?","A que se refiere Rutina?"],
+      "respuestas": ["  Conjunto de instrucciones que realizan una función muy concreta dentro de un programa o en un dispositivo hardware."]
+    },
+    {
+      "tag": "Saltar",
+      "patrones": ["Que es Saltar?","A que se refiere Saltar?"],
+      "respuestas": [" Ir de una página Web a otra."]
+    },
+    {
+      "tag": "Scripts",
+      "patrones": ["Que es Scripts?","A que se refiere Scripts?"],
+      "respuestas": ["Conjunto de instrucciones que se ejecutan como una macro."]
+    },
+    {
+      "tag": "Scroll",
+      "patrones": ["Que es Scroll?","A que se refiere Scroll?"],
+      "respuestas": ["Barras de desplazamiento horizontal o vertical para movernos por un documento o ventana."]
+    },
+    {
+      "tag": "SCSI ",
+      "patrones": ["Que es SCSI ?","A que se refiere SCSI ?"],
+      "respuestas": ["(Small Computer System Interface): Interfaz de hardware para la instalación en el ordenador de periféricos como escáneres, módems,"]
+    },
+    {
+      "tag": "Señalar",
+      "patrones": ["Que es Señalar?","A que se refiere Señalar?"],
+      "respuestas": ["Apuntar con el cursor a un icono mediante el ratón."]
+    },
+    {
+      "tag": "Servicio en línea",
+      "patrones": ["Que es Servicio en línea?","A que se refiere Servicio en línea?"],
+      "respuestas": ["Servicio Internet que proporciona una amplia gama de contenido a sus suscriptores, incluyendo el acceso a Internet."]
+    },
+    {
+      "tag": "Servidor",
+      "patrones": ["Que es Servidor?","A que se refiere Servidor?"],
+      "respuestas": ["Equipo que controla el acceso de los usuarios a una red y les da servicio e información."]
+    },
+    {
+      "tag": "Shareware",
+      "patrones": ["Que es Shareware?","A que se refiere Shareware?"],
+      "respuestas": [" Software con un período de evaluación."]
+    },
+    {
+      "tag": "WaveTable",
+      "patrones": ["Que es WaveTable?","A que se refiere WaveTable?"],
+      "respuestas": ["También conocida como tabla de ondas, es un sistema para reproducir música MIDI basado en almacenar en memoria muestras de instrumentos reales."]
+    },
+    {
+      "tag": "Sistema",
+      "patrones": ["Que es Sistema?","A que se refiere Sistema?"],
+      "respuestas": [" Conjunto formado por el hardware y software que componen la parte esencial del ordenador."]
+    },
+    {
+      "tag": "Sistema de archivos",
+      "patrones": ["Que es Sistema de archivos?","A que se refiere Sistema de archivos?"],
+      "respuestas": ["Estructura general en la que asigna nombres, almacena y organiza los archivos el sistema operativo."]
+    },
+    {
+      "tag": "Sistema operativo",
+      "patrones": ["Que es Sistema operativo?","A que se refiere Sistema operativo?"],
+      "respuestas": [" Programa primario que debe tener un ordenador para que las demás aplicaciones puedan funcionar."]
+    },
+    {
+      "tag": "Site",
+      "patrones": ["Que es Site?","A que se refiere Site?"],
+      "respuestas": ["Conjunto de páginas Web creadas por una persona u organización."]
+    },
+    {
+      "tag": "Sitio Web",
+      "patrones": ["Que es Sitio Web?","A que se refiere Sitio Web?"],
+      "respuestas": [" Grupo de páginas Web relacionadas entre sí."]
+    },
+    {
+      "tag": "Slot",
+      "patrones": ["Que es Slot?","A que se refiere Slot?"],
+      "respuestas": [" Ranura de expansión, cada abertura que tiene la placa base en las que se insertan las tarjetas de expansión y que contribuyen a mejorar el rendimiento y las prestaciones de un ordenador."]
+    },
+    {
+      "tag": "Software",
+      "patrones": ["Que es Software?","A que se refiere Software?"],
+      "respuestas": ["  Partes blandas de un ordenador o soportes donde se almacenarán los datos generados con éste."]
+    },
+    {
+      "tag": "Tarjeta de red",
+      "patrones": ["Que es Tarjeta de red?","A que se refiere Tarjeta de red?"],
+      "respuestas": [" Hardware que se inserta en un equipo para conectarlo a una red."]
+    },
+    {
+      "tag": "TCP/IP",
+      "patrones": ["Que es TCP/IP?","A que se refiere TCP/IP?"],
+      "respuestas": ["Protocolo de Internet (Protocolo de Control de Transmisión/Protocolo Internet) que especifica cómo se transmiten los datos en Internet para que todos los sistemas hablen el mismo idioma en Internet."]
+    },
+    {
+      "tag": "Telemática",
+      "patrones": ["Que es Telemática?","A que se refiere Telemática?"],
+      "respuestas": [" Ciencia que estudia los métodos, técnicas y servicios de la fusión entre las telecomunicaciones y la informática."]
+    },
+    {
+      "tag": "Telnet",
+      "patrones": ["Que es Telnet?","A que se refiere Telnet?"],
+      "respuestas": [" Servicio que permite la conexión remota con cualquier ordenador de la red situado en cualquier parte del mundo como si de una terminal más se tratase."]
+    },
+    {
+      "tag": "Terabyte",
+      "patrones": ["Que es Terabyte?","A que se refiere Terabyte?"],
+      "respuestas": ["Unidad de almacenamiento futura, equivalente a más de un trillón de bytes."]
+    },
+    {
+      "tag": "Terminal",
+      "patrones": ["Que es Terminal?","A que se refiere Terminal?"],
+      "respuestas": ["  Dispositivo que forma parte de una red controlada por una unidad central remota."]
+    },
+    {
+      "tag": "Texel",
+      "patrones": ["Que es Texel?","A que se refiere Texel?"],
+      "respuestas": ["Equivalente al pixel, pero dotado además de un color perteneciente a una textura."]
+    },
+    {
+      "tag": "TFT",
+      "patrones": ["Que es TFT?","A que se refiere TFT?"],
+      "respuestas": ["Tecnología de pantalla de matriz activa que se utiliza en los equipos portátiles."]
+    },
+    {
+      "tag": "TGA ",
+      "patrones": ["Que es TGA ?","A que se refiere TGA ?"],
+      "respuestas": [" Formato de fichero gráfico profesional que graba imágenes con profundidades hasta 32 bits. Desfavorablemente, ocupa mucho espacio en disco y no guarda ciertos detalles, como la resolución de impresión."]
+    },
+    {
+      "tag": "THX",
+      "patrones": ["Que es THX?","A que se refiere THX?"],
+      "respuestas": ["Sistema de sonido surround creado por LucasFilm para recrear audio espectacular en cine y en casa."]
+    },
+    {
+      "tag": "TIFF",
+      "patrones": ["Que es TIFF?","A que se refiere TIFF?"],
+      "respuestas": [" Formato de fichero gráfico creado por Adobe Systems con una gran calidad de imagen. Está considerado como la piedra filosofal de los gráficos por ordenador, ya que todo lo que se graba en este formato queda perfectamente conservado de por vida, manteniendo todos los detalles. Lo único en su contra es que ocupa bastante espacio en disco."]
+    },
+    {
+      "tag": "Token Ring",
+      "patrones": ["Que es Token Ring?","A que se refiere Token Ring?"],
+      "respuestas": [" Protocolo para redes de IBM que consiste en un anillo donde una especie de relevo se encarga de pasar turno entre las máquinas que desean transmitir la información."]
+    },
+    {
+      "tag": "Tóner",
+      "patrones": ["Que es Tóner?","A que se refiere Tóner?"],
+      "respuestas": ["Depósito de tinta que utilizan las impresoras láser, fax y fotocopiadoras para imprimir."]
+    },
+    {
+      "tag": "FTPV ",
+      "patrones": ["Que es TPV ?","A que se refiere TPV ?"],
+      "respuestas": [" (Terminal Punto de Venta): Híbrido de ordenador y cajero automático que se encuentra en muchos establecimientos comerciales y que funciona como un terminal de pago conectado al ordenador central."]
+    },
+    {
+      "tag": "Tracert",
+      "patrones": ["Que es Tracert?","A que se refiere Tracert?"],
+      "respuestas": [" Comando que analiza y registra el camino que ha seguido cualquier información enviada por la Red."]
+    },
+    {
+      "tag": "Track",
+      "patrones": ["Que es Track?","A que se refiere Track?"],
+      "respuestas": ["Pista de un dispositivo de almacenamiento, como un disco duro o cinta magnética."]
+    },
+    {
+      "tag": "Trackball",
+      "patrones": ["Que es Trackball?","A que se refiere Trackball?"],
+      "respuestas": ["Especie de ratón que dirige el cursor mediante el movimiento de una bolita situada en la parte superior y que se mueve con la mano"]
+    },
+    {
+      "tag": "Unidad",
+      "patrones": ["Que es Unidad?","A que se refiere Unidad?"],
+      "respuestas": [" Dispositivo físico de almacenamiento de los datos. Por lo general se les nombra mediante una etiqueta o nombre (A:, C:, D:)."]
+    },
+    {
+      "tag": "Unidad de disco",
+      "patrones": ["Que es Unidad de disco?","A que se refiere Unidad de disco?"],
+      "respuestas": [" Hardware en el que se pueden almacenar datos, normalmente el disquete A:"]
+    },
+    {
+      "tag": "UNIX",
+      "patrones": ["Que es UNIX?","A que se refiere UNIX?"],
+      "respuestas": ["Sistema operativo de 32 bits empleado principalmente en entornos científicos e industriales. Permite el trabajo de muchos usuarios y utiliza el sistema multitarea."]
+    },
+    {
+      "tag": "Upload",
+      "patrones": ["Que es Upload?","A que se refiere Upload?"],
+      "respuestas": ["Subir un fichero a un servidor de Internet."]
+    },
+    {
+      "tag": "UPS",
+      "patrones": ["Que es UPS?","A que se refiere UPS?"],
+      "respuestas": [" Unidad de alimentación ininterrumpida, también conocida como SAI, que sirve para proteger nuestros datos en caso de que se vaya la luz."]
+    },
+    {
+      "tag": "URL",
+      "patrones": ["Que es URL?","A que se refiere URL?"],
+      "respuestas": [" Localizador Uniforme de Recurso, dícese de la dirección de una página Web de Internet."]
+    },
+    {
+      "tag": "USB",
+      "patrones": ["Que es USB?","A que se refiere USB?"],
+      "respuestas": ["Conector de dispositivos externos que hace de vía de ampliación de los nuevos ordenadores."]
+    },
+    {
+      "tag": "Usenet",
+      "patrones": ["Que es Usenet?","A que se refiere Usenet?"],
+      "respuestas": ["Conjunto de grupos de noticias que se encuentran accesibles por todo Internet."]
+    },
+    {
+      "tag": "Usuario remoto",
+      "patrones": ["Que es Usuario remoto?","A que se refiere Usuario remoto?"],
+      "respuestas": ["Persona que se conecta a una red mediante un módem y Acceso telefónico a redes."]
+    },
+    {
+      "tag": "Utilidad",
+      "patrones": ["Que es Utilidad?","A que se refiere Utilidad?"],
+      "respuestas": ["Programa que complementa o mejora las funciones de un sistema operativo o de un programa concreto."]
+    },
+    {
+      "tag": "VAR",
+      "patrones": ["Que es VAR?","A que se refiere VAR?"],
+      "respuestas": [" Distribuidores que comercializan los productos de algún fabricante informático y a los que incorporan un valor añadido."]
+    },
+    {
+      "tag": "Ventana",
+      "patrones": ["Que es Ventana?","A que se refiere Ventana?"],
+      "respuestas": [" Forma rectangular que aparece en la pantalla y representa a una carpeta, una aplicación, un elemento."]
+    },
+    {
+      "tag": "Vínculo",
+      "patrones": ["Que es Vínculo?","A que se refiere Vínculo?"],
+      "respuestas": ["Texto o imagen donde al hacer clic sobre ella nos lleva a una ubicación distinta dentro del documento o a una página Web en Internet."]
+    },
+    {
+      "tag": "Virus",
+      "patrones": ["Que es Virus?","A que se refiere Virus?"],
+      "respuestas": [" Programas informáticos diseñados con mala intención, ya que se convierten en parásitos capaces de infectar a otros para incluir una copia evolucionada de sí mismos."]
+    },
+    {
+      "tag": "VRAM",
+      "patrones": ["Que es VRAM?","A que se refiere VRAM?"],
+      "respuestas": [" Tipo de memoria utilizado actualmente."]
+    },
+    {
+      "tag": "VRLM ",
+      "patrones": ["Que es VRLM ?","A que se refiere VRLM ?"],
+      "respuestas": [" Formato de descripción de entornos en tres dimensiones que permite dibujar dichos entornos y navegar por ellos con el ratón. Con este lenguaje podemos entrar en mundos virtuales, recorrerlos e interactuar con los objetos contenidos en éstos."]
+    },
 
+    {
+      "tag": "WAN ",
+      "patrones": ["Que es WAN ?","A que se refiere WAN ?"],
+      "respuestas": ["(Wide Area Network): Red pública de área ancha, no tiene límites físicos."]
+    },
+    {
+      "tag": "Warez",
+      "patrones": ["Que es Warez?","A que se refiere Warez?"],
+      "respuestas": ["Software pirateado."]
+    },
+    {
+      "tag": "Web",
+      "patrones": ["Que es Web?","A que se refiere Web?"],
+      "respuestas": ["World Wide Web, Internet. Zona gráfica compuesta por millones de páginas Web y a la cual accedemos por medio de un navegador"]
+    },
+    {
+      "tag": "Webmaster",
+      "patrones": ["Que es Webmaster?","A que se refiere Webmaster?"],
+      "respuestas": [" Persona encargada de administrar una Web."]
+    },
+    {
+      "tag": "WinZip",
+      "patrones": ["Que es WinZip?","A que se refiere WinZip?"],
+      "respuestas": ["Popular programa que realiza la compresión de ficheros para un mejor aprovechamiento del espacio en disco."]
+    },
+    {
+      "tag": "Workstation",
+      "patrones": ["Que es Workstation?","A que se refiere Workstation?"],
+      "respuestas": ["Estación de trabajo. Sistema informático con prestaciones superiores a las de un PC."]
+    },
+    {
+      "tag": "Xenix",
+      "patrones": ["Que es Xenix?","A que se refiere Xenix?"],
+      "respuestas": ["  Sistema operativo desarrollado por Microsoft de acuerdo a las especificaciones Unix."]
+    },
+    {
+      "tag": "XG",
+      "patrones": ["Que es XG?","A que se refiere XG?"],
+      "respuestas": ["Nuevo estándar para  ficheros de música MIDI en el que se mejora sustancialmente la reproducción del sonido."]
+    },
+    {
+      "tag": "Yahoo",
+      "patrones": ["Que es Yahoo?","A que se refiere Yahoo?"],
+      "respuestas": ["Portal más popular de Internet que permite la búsqueda de páginas Web por criterios o contenidos."]
+    },
+    {
+      "tag": "ZIF ",
+      "patrones": ["Que es ZIF ?","A que se refiere ZIF ?"],
+      "respuestas": [" (Zero Insertion Force): Zócalo del microprocesador en el que no es necesario ejercer ninguna presión para pinchar el micro, sino que basta con levantar una palanca."]
+    },
+    {
+      "tag": "FAQs",
+      "patrones": ["Que es FAQs?","A que se refiere FAQs?"],
+      "respuestas": [" Respuestas a las pregundas más frecuentes."]
+    },
+    {
+      "tag": "ZIP",
+      "patrones": ["Que es ZIP?","A que se refiere ZIP?"],
+      "respuestas": ["Dispositivo de almacenamiento magnético cuyos cartuchos pueden guardar hasta 250 Mb."]
+    },
+    {
+      "tag": "Zócalo",
+      "patrones": ["Que es Zócalo?","A que se refiere Zócalo?"],
+      "respuestas": [" Hueco o lugar de la placa base donde se insertan en microprocesador, las memorias u otros chips."]
+    },
+    {
+      "tag": "Bash ",
+      "patrones": ["Que es Bash ?","A que se refiere Bash ?"],
+      "respuestas": ["Se trata de un lenguaje de programación. Bash es un tipo de shell, un interprete de comandos para Linux."]
+    },
+    {
+      "tag": "Chmod ",
+      "patrones": ["Que es Chmod ?","A que se refiere Chmod ?"],
+      "respuestas": [" Es el comando que se utiliza en Linux para cambiar los permisos de un archivo."]
+    },
+    {
+      "tag": "CLI ",
+      "patrones": ["Que es CLI ?","A que se refiere CLI ?"],
+      "respuestas": ["Es la interfaz de linea de comandos, un sinónimo para la terminal (u otros tipos de interfaces que no dependan del Window Managar)"]
+    },
+    {
+      "tag": "Contraseña ",
+      "patrones": ["Que es Contraseña ?","A que se refiere Contraseña ?"],
+      "respuestas": ["Es un conjunto de caracteres que se pide para autentificar una cuenta (o grupo de cuentas) en cualquier sistema."]
+    },
+    {
+      "tag": "Cpanel ",
+      "patrones": ["Que es Cpanel ?","A que se refiere Cpanel ?"],
+      "respuestas": ["Es un tipo de interfaz para interactuar con el servidor web. Permite hacer cambios en tiempo real a través de la web."]
+    },
+    {
+      "tag": "Crontab ",
+      "patrones": ["Que es Crontab ?","A que se refiere Crontab ?"],
+      "respuestas": ["Es un planificador de tareas, un programa que ejecuta procesos periódicamente. Estos procesos son anotados en tablas."]
+    },
+    {
+      "tag": "Dependencia ",
+      "patrones": ["Que es Dependencia ?","A que se refiere Dependencia ?"],
+      "respuestas": ["Una aplicación o librería indispensable para que otro paquete o programa pueda funcionar."]
+    },
+    {
+      "tag": "Dominio ",
+      "patrones": ["Que es Dominio ?","A que se refiere Dominio ?"],
+      "respuestas": ["Un nombre de dominio tiene que ser único. Es el nombre que permite localizar una computadora dentro de la red."]
+    },
+    {
+      "tag": "Distro ",
+      "patrones": ["Que es Distro ?","A que se refiere Distro ?"],
+      "respuestas": ["Diminutivo para Distribución. Una distribución es un conjunto especifico de software y el Kernel de Linux, juntos en un mismo paquete para crear un sistema operativo."]
+    },
+    {
+      "tag": "Find ",
+      "patrones": ["Que es Find ?","A que se refiere Find ?"],
+      "respuestas": ["Comando para buscar archivos dentro de la terminal de Linux."]
+    },
+    {
+      "tag": "FTP ",
+      "patrones": ["Que es FTP ?","A que se refiere FTP ?"],
+      "respuestas": ["Protocolo para la transferencia de archivos por la red."]
+    },
+    {
+      "tag": "GNOME ",
+      "patrones": ["Que es GNOME ?","A que se refiere GNOME ?"],
+      "respuestas": ["Un entorno de escritorio para Linux."]
+    },
+    {
+      "tag": "GRUB ",
+      "patrones": ["Que es GRUB ?","A que se refiere GRUB ?"],
+      "respuestas": ["Es un Cargador de arranque para Linux. Si en tu computadora hay varios sistemas operativos instalados, GRUB te permite elegir uno para inicializar la máquina."]
+    },
+    {
+      "tag": "GUI ",
+      "patrones": ["Que es GUI ?","A que se refiere GUI ?"],
+      "respuestas": ["Interfaz gráfica que te permite interactuar con el sistema operativo."]
+    },
+    {
+      "tag": "Hosting ",
+      "patrones": ["Que es Hosting ?","A que se refiere Hosting ?"],
+      "respuestas": ["Conjunto de servicios que la empresa encargada de los servidores te ofrece."]
+    },
+    {
+      "tag": "Iptables ",
+      "patrones": ["Que es Iptables ?","A que se refiere Iptables ?"],
+      "respuestas": ["Se utiliza para crear tablas que contienen información de distintas IP, puede usarse para mejorar un cortafuegos."]
+    },
+    {
+      "tag": "Interfaz de administración ",
+      "patrones": ["Que es Interfaz de administración ?","A que se refiere Interfaz de administración ?"],
+      "respuestas": [" Software que te permite interactuar con un servidor o con un sistema operativo para realizar modificaciones"]
+    },
+    {
+      "tag": "KDE ",
+      "patrones": ["Que es KDE ?","A que se refiere KDE ?"],
+      "respuestas": ["Es un entorno de escritorio para Linux."]
+    },
+    {
+      "tag": "Kernel ",
+      "patrones": ["Que es Kernel ?","A que se refiere Kernel ?"],
+      "respuestas": [" Es el “núcleo” de Linux, la base de las distribuciones GNU/Linux. Es lo que controla el hardware, y asigna los distintos recursos de memoria y CPU entre los programas.."]
+    },
+    {
+      "tag": "LILO ",
+      "patrones": ["Que es LILO ?","A que se refiere LILO ?"],
+      "respuestas": ["Es un cargador de arranque, su función es parecida a la de GRUB. Usualmente relacionado con el MBR (Master Boot Record) en el sistema."]
+    },
+    {
+      "tag": "Man ",
+      "patrones": ["Que es Man ?","A que se refiere Man ?"],
+      "respuestas": ["man (nombre del comando)"]
+    },
+    {
+      "tag": "Megabyte ",
+      "patrones": ["Que es Megabyte ?","A que se refiere Megabyte ?"],
+      "respuestas": ["Se trata de una unidad de medida de almacenamiento. En 1 megabyte hay 1024 kilobytes o 1.048.576 bytes,"]
+    },
+    {
+      "tag": "MySQL ",
+      "patrones": ["Que es MySQL ?","A que se refiere MySQL ?"],
+      "respuestas": ["Es una shell SQL, que permite la edición y creación de bases de datos."]
+    },
+    {
+      "tag": "NOC ",
+      "patrones": ["Que es NOC ?","A que se refiere NOC ?"],
+      "respuestas": ["Sinónimo de Server Room. Espaciodonde se encuentra instalado el hardwarepara el control de la red y los equipos del server."]
+    },
+    {
+      "tag": "OpenSSH ",
+      "patrones": ["Que es OpenSSH ?","A que se refiere OpenSSH ?"],
+      "respuestas": ["Es un programa que se usa para ingresar comandos y pedir verificaciones en una terminal remota."]
+    },
+    {
+      "tag": "Package ",
+      "patrones": ["Que es Package ?","A que se refiere Package ?"],
+      "respuestas": ["Paquetes, en su interior contienen la información que hace a un programa."]
+    },
+    {
+      "tag": "Perl ",
+      "patrones": ["Que es Perl ?","A que se refiere Perl ?"],
+      "respuestas": ["Es un lenguaje de programación orientado a la practicidad. Muy utilizado para trabajar con textos, extrayendo y analizando información."]
+    },
+    {
+      "tag": "Plesk ",
+      "patrones": ["Que es Plesk ?","A que se refiere Plesk ?"],
+      "respuestas": [" Un tipo de interfaz para gestionar el hosting de tu sitio web de manera remota."]
+    },
+    {
+      "tag": "PHP ",
+      "patrones": ["Que es PHP ?","A que se refiere PHP ?"],
+      "respuestas": [" Un lenguaje de programación especialmente orientado al desarrollo web."]
+    },
+    {
+      "tag": "Postfix ",
+      "patrones": ["Que es Postfix ?","A que se refiere Postfix ?"],
+      "respuestas": [" Otro de los mail transfer agents (MTA) en Linux. Es un programa que sirve para enviar y recibir correo electrónico."]
+    },
+    {
+      "tag": "Qmail ",
+      "patrones": ["Que es Qmail ?","A que se refiere Qmail ?"],
+      "respuestas": [" Software para configurar un sistema para enviar y responder correos. Su licencia es de dominio público."]
+    },
+    {
+      "tag": "rsync ",
+      "patrones": ["Que es rsync ?","A que se refiere rsync ?"],
+      "respuestas": ["Se utiliza por ejemplo para hacer resguardos de información moviendo archivos entre sistemas Linux."]
+    },
+    {
+      "tag": "Root ",
+      "patrones": ["Que es Root ?","A que se refiere Root ?"],
+      "respuestas": ["La cuenta con nivel de “súper usuario” en Linux. El nivel más alto de permisos en el sistema Linux"]
+    },
+    {
+      "tag": "RPM ",
+      "patrones": ["Que es RPM ?","A que se refiere RPM ?"],
+      "respuestas": [" Un administrador de paquetes para la terminal de Linux. Sirve para instalar, verificar y actualizar diferentes aplicaciones e instalaciones en sistemas que usan paquetes rpm, como por ejemplo Fedora."]
+    },
+    {
+      "tag": "Samba ",
+      "patrones": ["Que es Samba ?","A que se refiere Samba ?"],
+      "respuestas": [" Conjunto de programas que implementan el protocolo Server Message Block (SMB) en sistemas Unix. Se utiliza para compartir archivos a través de una red."]
+    },
+    {
+      "tag": "Server room",
+      "patrones": ["Que es Server room?","A que se refiere Server room?"],
+      "respuestas": ["El espacio donde el hardware y el equipo de red del servidor se encuentra instalado. Viene equipado con distintas medidas de seguridad, y varias formas para asegurar el correcto almacenamiento de los datos (fuentes de energía alternativa, múltiples discos duros, etc)."]
+    },
+    {
+      "tag": "Shell ",
+      "patrones": ["Que es Shell ?","A que se refiere Shell ?"],
+      "respuestas": ["Puesto de forma poética la shell o “caparazón”, funciona como el nexo comunicacional entre los humanos y el kernel de Linux."]
+    },
+    {
+      "tag": "SCP ",
+      "patrones": ["Que es SCP ?","A que se refiere SCP ?"],
+      "respuestas": ["Sirve para copiar archivos entre distintos hosts de una red. Similar a SSH."]
+    },
+    {
+      "tag": "Sendmail ",
+      "patrones": ["Que es Sendmail ?","A que se refiere Sendmail ?"],
+      "respuestas": ["Es un software que sirve para enviar y recibir correo electrónico."]
+    },
+    {
+      "tag": "Sudo ",
+      "patrones": ["Que es Sudo ?","A que se refiere Sudo ?"],
+      "respuestas": ["Significa “super user hace”. Cuando antecede a un comando en la terminal le permite a una cuenta individual tener privilegios root de administración para ejecutar una tarea."]
+    },
+    {
+      "tag": "Terminal ",
+      "patrones": ["Que es Terminal ?","A que se refiere Terminal ?"],
+      "respuestas": [" En Linux es una representación visual de la shell."]
+    },
+    {
+      "tag": "Tar ",
+      "patrones": ["Que es Tar ?","A que se refiere Tar ?"],
+      "respuestas": ["Se trata de un programa que se utiliza para guardar (o extraer) archivos con la extensión “.tar”."]
+    },
+    {
+      "tag": "Tux ",
+      "patrones": ["Que es Tux ?","A que se refiere Tux ?"],
+      "respuestas": ["La mascota de Linux, un pingüino."]
+    },
+    {
+      "tag": "Uptime ",
+      "patrones": ["Que es Uptime ?","A que se refiere Uptime ?"],
+      "respuestas": [" Hace referencia a la cantidad de tiempo que tu servidor garantiza mantenerse en linea."]
+    },
+    {
+      "tag": "Vi/Vim |",
+      "patrones": ["Que es Vim ?","A que se refiere Vi?"],
+      "respuestas": ["Un editor de texto, especialmente utilizado para trabajar con archivos de configuración o scripts de programación en la terminal de Linux."]
+    },
+    {
+      "tag": "WHM ",
+      "patrones": ["Que es WHM ?","A que se refiere WHM ?"],
+      "respuestas": [" Una interfaz de administración para hosting. Permite hacer modificaciones en tu sitio de manera online, en tiempo real."]
+    },
+    {
+      "tag": "Web Hosting",
+      "patrones": ["Que es Web Hosting?","A que se refiere Web Hosting?"],
+      "respuestas": ["Básicamente el web hosting es permitir que una página de internet se mantenga en linea en un servidor, durante un tiempo consecutivo."]
+    },
+    {
+      "tag": "Lógica",
+      "patrones": ["Que es Lógica?","A que se refiere Lógica?"],
+      "respuestas": ["Es el estudio de los principios del razonamiento valido y la inferencia, como también de la consistencia, solidez y completitud. Por ejemplo, en la mayoría de los sistemas en la lógica, la ley de Peirce, (((P→Q)→P)→P) es un teorema. En lógica clásica, puede ser fácilmente verificado con una tabla de verdad. El estudio de las demostraciones matemáticas es particularmente importante en lógica y tiene aplicaciones en la demostración automática de teoremas y verificación formal de software."]
+    },
+    {
+      "tag": "Teoría de Conjuntos",
+      "patrones": ["Que es Teoría de Conjuntos?","A que se refiere la Teoría de Conjuntos?"],
+      "respuestas": ["Es la rama de la matemática que estudia conjuntos matemáticos, los cuales son colecciones de objetos, tales como {azul, blanco, rojo} o el conjunto infinito de todos los números primos. Conjuntos parcialmente ordenados y conjuntos con otras relaciones tienen aplicación en muchas áreas."]
+    },
+    {
+      "tag": "Combinatoria",
+      "patrones": ["Que es Combinatoria?","A que se refiere Combinatoria?"],
+      "respuestas": [" Es la rama de la matemática que estudia colecciones finitas de objetos que pueden ser combinados u ordenados. La combinatoria enumerativa se ocupa, en particular, del recuento de los objetos de dichas colecciones."]
+    },
+    {
+      "tag": "Geometría Discreta",
+      "patrones": ["Que es Geometría Discreta?","A que se refiere Geometría Discreta?"],
+      "respuestas": [" La geometría discreta y combinatoria tratan las propiedades combinatorias de colecciones discretas de objetos geométricos. Un antiguo tópico en la geometría discreta es el recubrimiento del plano. La geometría computacional aplica algoritmos a problemas geométricos."]
+    },
+    {
+      "tag": "ALGORITMOS",
+      "patrones": ["Que es ALGORITMOS?","A que se refiere ALGORITMOS?"],
+      "respuestas": ["Son listas de instrucciones para resolver un cálculo o un problema."]
+    },
+    {
+      "tag": "ÁNGULO RECTO.",
+      "patrones": ["Que es ÁNGULO RECTO.?","A que se refiere ÁNGULO RECTO.?"],
+      "respuestas": ["Es el ángulo que mide 90o."]
+    },
+    {
+      "tag": "ÁREA",
+      "patrones": ["Que es ÁREA?","A que se refiere ÁREA?"],
+      "respuestas": ["Es la medida de la extensión de una superficie."]
+    },
+    {
+      "tag": "ARISTAS",
+      "patrones": ["Que es ARISTAS?","A que se refiere ARISTAS?"],
+      "respuestas": ["En geometría, es el segmento de recta que se genera por la intersección de dos planos o dos superficies."]
+    },
+    {
+      "tag": "COLINEALES",
+      "patrones": ["Que es COLINEALES?","A que se refiere COLINEALES?"],
+      "respuestas": ["Término que indica que dos o más elementos se encuentran en una misma línea."]
+    },
+    {
+      "tag": "DENOMINADOR",
+      "patrones": ["Que es DENOMINADOR?","A que se refiere DENOMINADOR?"],
+      "respuestas": ["En los cocientes de dos expresiones o términos, el que actúa como divisor."]
+    },
+    {
+      "tag": "FACTOR",
+      "patrones": ["Que es FACTOR?","A que se refiere FACTOR?"],
+      "respuestas": ["Número por el que se multiplica tanto el numerador y el denominador de la fracción."]
+    },
+    {
+      "tag": "GEOGRAFÍA",
+      "patrones": ["Que es GEOGRAFÍA?","A que se refiere GEOGRAFÍA?"],
+      "respuestas": ["La Geografía (del griego γεωγραφία gueografía, compuesto por γῆ «tierra» y γράφω grafo «describir, dibujar») es la ciencia que trata de la descripción o de la representación gráfica de la Tierra."]
+    },
+    {
+      "tag": "HIPÓTESIS",
+      "patrones": ["Que es HIPÓTESIS?","A que se refiere HIPÓTESIS?"],
+      "respuestas": ["Son los supuestos que se especifican en el teorema."]
+    },
+    {
+      "tag": "3D",
+      "patrones": ["Que es 3D?","A que se refiere 3D?"],
+      "respuestas": ["tridimensional. Imagen construida con tres dimensiones: largo, ancho y profundidad. Cuando el usuario puede interactuar con imágenes 3D sintiéndose involucrado en la escena, la experiencia se llama realidad virtual."]
+    },
+    {
+      "tag": "AI",
+      "patrones": ["Que es AI?","A que se refiere AI?"],
+      "respuestas": ["Artificial Intelligence: Inteligencia Artificial."]
+    },
+    {
+      "tag": "Árbol",
+      "patrones": ["Que es Árbol?","A que se refiere Árbol?"],
+      "respuestas": ["En ciencias de la informática, un árbol es una estructura de datos ampliamente usada que imita la forma de un árbol (un conjunto de nodos conectados)."]
+    },
+    {
+      "tag": "Árbol binario",
+      "patrones": ["Que es Árbol binario?","A que se refiere Árbol binario?"],
+      "respuestas": ["Un árbol binario es una estructura de datos en la cual cada nodo siempre tiene un hijo izquierdo y un hijo derecho. No pueden tener más de dos hijos (de ahí el nombre “binario”)."]
+    },
+    {
+      "tag": "Antivirus:",
+      "patrones": ["Que es Antivirus:?","A que se refiere Antivirus:?"],
+      "respuestas": ["programas cuyo objetivo es detectar y/o eliminar virus informáticos."]
+    },
+    {
+      "tag": "Archivos",
+      "patrones": ["Que es Archivos?","A que se refiere Archivos?"],
+      "respuestas": [" conjunto de bits almacenado en un dispositivo."]
+    },
+    {
+      "tag": "Apache",
+      "patrones": ["Que es Apache?","A que se refiere Apache?"],
+      "respuestas": ["Servidor web de distribución libre. Fue desarrollado en 1995 y ha llegado a ser el más usado de Internet"]
+    },
+    {
+      "tag": "Cable coaxial",
+      "patrones": ["Que es Cable coaxial?","A que se refiere Cable coaxial?"],
+      "respuestas": ["Es el tipo de cable usado por las compañías de televisión por cable para establecer la conexión entre la central emisora y el usuario. La compañía telefónica AT&T usó el cable coaxil para la primera conexión transcontinental en 1941. También se lo utiliza mucho en las conexiones de redes de área local (LAN). Según el tipo de tecnología que se use, se lo puede reemplazar por fibra óptica."]
+    },
+    {
+      "tag": "Cable-módem",
+      "patrones": ["Que es Cable-módem?","A que se refiere Cable-módem?"],
+      "respuestas": ["Módem que conecta una computadora con Internet a alta velocidad, por medio de una línea de TV por cable."]
+    },
+    {
+      "tag": "Caché de disco",
+      "patrones": ["Que es Caché de disco?","A que se refiere Caché de disco?"],
+      "respuestas": [" pequeña porción de memoria RAM que almacena datos recientemente leídos, con lo cual agiliza el acceso futuro a los mismos datos"]
+    },
+    {
+      "tag": "Caché",
+      "patrones": ["Que es Caché?","A que se refiere Caché?"],
+      "respuestas": ["En un navegador, el caché guarda copias de documentos de acceso frecuente, para que en el futuro aparezcan más rápidamente"]
+    },
+    {
+      "tag": "CAD",
+      "patrones": ["Que es CAD?","A que se refiere CAD?"],
+      "respuestas": [" ComputerAidedDesign: Diseño Asistido por Computadora. Software que permite crear dibujos de precisión, bidimensionales y tridimensionales. Lo usan principalmente arquitectos e ingenieros."]
+    },
+    {
+      "tag": "Carácter",
+      "patrones": ["Que es Carácter?","A que se refiere Carácter?"],
+      "respuestas": ["Número, letra o símbolo en la computadora, conformado por un byte."]
+    },
+    {
+      "tag": "Chip",
+      "patrones": ["Que es Chip?","A que se refiere Chip?"],
+      "respuestas": ["Abreviatura de “microchip”. Circuito muy pequeño,compuesto por miles a millones de transistores impresos sobre una oblea de silicio."]
+    },
+    {
+      "tag": "Clúster",
+      "patrones": ["Que es Clúster?","A que se refiere Clúster?"],
+      "respuestas": ["Grupo; racimo; agrupamiento. En la tecnología de las computadoras, un cluster es la unidad de almacenamiento en el disco rígido. Un archivo está compuesto por varios clusters, que pueden estar almacenados en diversos lugares del disco."]
+    },
+    {
+      "tag": "Ergonomía",
+      "patrones": ["Que es Ergonomía?","A que se refiere Ergonomía?"],
+      "respuestas": ["Consideración del elemento humano en el diseño de ingeniería. Estudio del diseño de dispositivos (por ejemplo, teclados), con el objetivo de que las personas los usen de manera saludable, cómoda y eficiente."]
+    },
+    {
+      "tag": "FTP",
+      "patrones": ["Que es FTP?","A que se refiere FTP?"],
+      "respuestas": ["File Transfer Protocol: Protocolo de Transferencia de Archivos. Sirve para enviar y recibir archivos de Internet. fuente: variedad completa de caracteres de imprenta de un determinado estilo."]
+    },
+    {
+      "tag": "Grid",
+      "patrones": ["Que es Grid?","A que se refiere Grid?"],
+      "respuestas": ["Grilla. Cuadrícula para representar conjuntos de datos en forma de tabla."]
+    },
+    {
+      "tag": "Hosting",
+      "patrones": ["Que es Hosting?","A que se refiere Hosting?"],
+      "respuestas": ["Alojamiento. Servicio ofrecido por algunos proveedores, que brindan a sus clientes (individuos o empresas) un espacio en su servidor para alojar un sitio web."]
+    },
+    {
+      "tag": "ISO",
+      "patrones": ["Que es ISO?","A que se refiere ISO?"],
+      "respuestas": ["International Organization for Standardization. Fundada en 1946, es una federación internacional que unifica normas en unos cien países. Una de ellas es la norma OSI, modelo de referencia universal para protocolos de comunicación."]
+    },
+    {
+      "tag": "KDD",
+      "patrones": ["Que es KDD?","A que se refiere KDD?"],
+      "respuestas": ["(Knowledge Discovery from Databases) es el proceso no trivial de identi car patrones válidos, novedosos, potencialmente útiles y en última instancia, comprensibles a partir de los datos. "]
+    },
+    {
+      "tag": "Paquete ",
+      "patrones": ["Que es Paquete ?","A que se refiere Paquete ?"],
+      "respuestas": ["La parte de un mensaje que se transmite por una red. Antes de ser enviada a través de Internet, la información se divide en paquetes.."]
+    },
+    {
+      "tag": "Pseudocódigo",
+      "patrones": ["Que es Pseudocódigo?","A que se refiere Pseudocódigo?"],
+      "respuestas": ["El pseudocódigo (o falso lenguaje) es una descripción de un algoritmo de programación informático de alto nivel compacto e informal que utiliza las convenciones estructurales de un lenguaje de programación verdadero, pero que está diseñado para la lectura humana en lugar de la lectura en máquina, y con independencia de cualquier otro lenguaje de programación"]
+    },
+    {
+      "tag": "Puerto serial",
+      "patrones": ["Que es Puerto serial?","A que se refiere Puerto serial?"],
+      "respuestas": ["Conexión por medio de la cual se envían datos a través de un solo conducto. Por ejemplo, el mouse se conecta a un puerto serial. Las computadoras tienen dos puertos seriales: COM1 y COM2."]
+    },
+    {
+      "tag": "Queue",
+      "patrones": ["Que es Queue?","A que se refiere Queue?"],
+      "respuestas": ["Conjunto de paquetes en espera de ser procesados"]
+    },
+    {
+      "tag": "Quality of Service",
+      "patrones": ["Que es Quality of Service?","A que se refiere Quality of Service?"],
+      "respuestas": ["Calidad de servicio. En Internet y otras redes, designa la posibilidad de medir, mejorar y, en alguna medida, garantizar por adelantado los índices de transmisión y error. Es importante para la transmisión fluida de información multimedia: por ejemplo, para los usos académicos de Internet2."]
+    },
+    {
+      "tag": "Recursividad",
+      "patrones": ["Que es Recursividad?","A que se refiere Recursividad?"],
+      "respuestas": ["es la forma en la cual se especifica un proceso basado en su propia definición "]
+    },
+    {
+      "tag": "ScanDisk",
+      "patrones": ["Que es ScanDisk?","A que se refiere ScanDisk?"],
+      "respuestas": ["Programa de Windows que revisa un disco, detecta errores y los corrige"]
+    },
+    {
+      "tag": "Servidor",
+      "patrones": ["Que es Servidor?","A que se refiere Servidor?"],
+      "respuestas": ["Computadora central de un sistema de red que provee servicios y programas a otras computadoras conectadas"]
+    },
+    {
+      "tag": "Simulación",
+      "patrones": ["Que es Simulación?","A que se refiere Simulación?"],
+      "respuestas": [" Representación del funcionamiento de un sistema por otro. Por ejemplo, la representación de un sistema físico por un modelo matemático."]
+    },
+    {
+      "tag": "Spam",
+      "patrones": ["Que es Spam?","A que se refiere Spam?"],
+      "respuestas": ["Correo electrónico no solicitado. Se lo considera poco ético, ya que el receptor paga por estar conectado a Internet"]
+    },
+    {
+      "tag": "Troyano",
+      "patrones": ["Que es Troyano?","A que se refiere Troyano?"],
+      "respuestas": ["Programa que contiene un código dañino dentro de datos aparentemente inofensivos. Puede arruinar parte del disco rígido. "]
+    },
+    {
+      "tag": "Variables",
+      "patrones": ["Que es Variables?","A que se refiere Variables?"],
+      "respuestas": ["las variables son espacios reservados en la memoria que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa. Una variable corresponde a un área reservada en la memoria principal del ordenador pudiendo ser de longitud fija o variable."]
+    },
+    {
+      "tag": "Workstation",
+      "patrones": ["Que es Workstation?","A que se refiere Workstation?"],
+      "respuestas": [" Estación de trabajo. Computadora personal conectada a una LAN. Puede ser usada independientemente de la mainframe, dado que tiene sus propias aplicaciones y su propio disco rígido"]
+    },
+    {
+      "tag": "Batería",
+      "patrones": ["Que es Batería?","A que se refiere Batería?"],
+      "respuestas": ["Acumulador de energía eléctrica por medio de un proceso químico reversible. Su función es principalmente aportar la energía necesaria para poner el motor en marcha en vehículos o máquinas."]
+    },
+    {
+      "tag": "Electroimán",
+      "patrones": ["Que es Electroimán?","A que se refiere Electroimán?"],
+      "respuestas": [" Es la magnetización de un material, utilizando para ello la electricidad."]
+    }
   ]
 }
